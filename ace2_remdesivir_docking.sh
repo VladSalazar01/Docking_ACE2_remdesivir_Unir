@@ -1,13 +1,17 @@
 #!/bin/bash
 # Perform molecular docking of remdesivir to ACE2 (PDB 6M0J) using GNINA
 # Requirements: Miniconda with 'docking' environment (Python 3.9, RDKit, PyMOL-open-source, Open Babel), Docker with gnina/gnina:latest, NVIDIA drivers/CUDA
-# Outputs: Receptor (6M0J_clean.pdbqt), ligand (remdesivir_aligned.pdbqt), docking results (test_gnina_specific.pdbqt)
+# Outputs: Receptor (6M0J_clean.pdbqt), ligand (remdesivir_aligned.pdbqt), docking results (test_gnina_specific.pdbqt), PyMOL visualization script (visualize.pml)
 
 # Define variables
-set PDB_ID="6M0J"
-set CHAIN="A"  # ACE2 chain in 6M0J
-set SMILES="CC[C@@H]1C(=O)N(C(=O)N(C2=C1C(=N)NC(N)=C2C#N)CC(O)CO)[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O"
-set ACTIVE_SITE_RESIDUES="30+31+34+83+353"
+PDB_ID="6M0J"
+CHAIN="A"  # ACE2 chain in 6M0J
+SMILES="CC[C@@H]1C(=O)N(C(=O)N(C2=C1C(=N)NC(N)=C2C#N)CC(O)CO)[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O"
+ACTIVE_SITE_RESIDUES="30+31+34+83+353"
+CENTER_X=-32.8  # Adjusted based on active site
+CENTER_Y=28.7
+CENTER_Z=17.5
+BOX_SIZE=30    # Increased to avoid 'ligand outside box'
 
 # Download PDB file from RCSB
 wget https://files.rcsb.org/download/${PDB_ID}.pdb
@@ -41,10 +45,6 @@ cat active_site.txt
 # Calculate active site center
 pymol -c ${PDB_ID}_clean.pdb -d "select active_site, resi ${ACTIVE_SITE_RESIDUES} and chain ${CHAIN}; run https://raw.githubusercontent.com/Pymol-Scripts/Pymol-scripts/master/com.py; get_com active_site" > box_center.txt
 cat box_center.txt
-# Set box center (adjust based on box_center.txt)
-set CENTER_X=-32.8
-set CENTER_Y=28.7
-set CENTER_Z=17.5
 
 # Generate ligand PDB from SMILES using RDKit
 echo "from rdkit import Chem
@@ -93,7 +93,7 @@ docker run --gpus all -v $(pwd):/work -w /work gnina/gnina:latest gnina \
   --receptor ${PDB_ID}_clean.pdbqt \
   --ligand remdesivir_aligned.pdbqt \
   --center_x ${CENTER_X} --center_y ${CENTER_Y} --center_z ${CENTER_Z} \
-  --size_x 30 --size_y 30 --size_z 30 \
+  --size_x ${BOX_SIZE} --size_y ${BOX_SIZE} --size_z ${BOX_SIZE} \
   --out test_gnina_specific.pdbqt \
   --cnn_scoring rescore \
   --seed 88 \
@@ -111,8 +111,17 @@ fi
 # Activate conda environment for visualization
 conda activate docking
 
-# Visualize docking results in PyMOL
-pymol -c test_gnina_specific.pdbqt ${PDB_ID}_clean.pdbqt -d "select active_site, resi ${ACTIVE_SITE_RESIDUES} and chain ${CHAIN}; show sticks, active_site; label active_site, resi + resn; zoom active_site"
+# Create PyMOL visualization script
+echo "load test_gnina_specific.pdbqt
+load ${PDB_ID}_clean.pdbqt
+select active_site, resi ${ACTIVE_SITE_RESIDUES} and chain ${CHAIN}
+show sticks, active_site
+label active_site, resi + ' ' + resn
+zoom active_site
+bg_color white" > visualize.pml
+
+# Visualize docking results in PyMOL (interactive mode)
+pymol visualize.pml
 
 # Deactivate conda environment
 conda deactivate
