@@ -1,50 +1,48 @@
 #!/bin/bash
-# Perform molecular docking of remdesivir to ACE2 (PDB 6M0J) using GNINA
-# Requirements: Miniconda with 'docking' environment (Python 3.9, RDKit, PyMOL-open-source, Open Babel), Docker with gnina/gnina:latest, NVIDIA drivers/CUDA
-# Outputs: Receptor (6M0J_clean.pdbqt), ligand (remdesivir_aligned.pdbqt), docking results (test_gnina_specific.pdbqt), PyMOL visualization script (visualize.pml)
+# Full docking process for ACE2-remdesivir using GNINA
+# Requirements: Miniconda with 'docking' environment (Python 3.9, RDKit, PyMOL, Open Babel), Docker with GNINA image, NVIDIA drivers/CUDA
 
-# Define variables
+# Set variables
 PDB_ID="6M0J"
-CHAIN="A"  # ACE2 chain in 6M0J
+CHAIN="A"  # Chain for ACE2 in 6M0J
 SMILES="CC[C@@H]1C(=O)N(C(=O)N(C2=C1C(=N)NC(N)=C2C#N)CC(O)CO)[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O"
-ACTIVE_SITE_RESIDUES="30+31+34+83+353"
-CENTER_X=-32.8  # Adjusted based on active site
+CENTER_X=-32.8
 CENTER_Y=28.7
 CENTER_Z=17.5
-BOX_SIZE=30    # Increased to avoid 'ligand outside box'
+BOX_SIZE=35
 
-# Download PDB file from RCSB
+# Download the PDB file from RCSB
 wget https://files.rcsb.org/download/${PDB_ID}.pdb
-
-# Verify chain and residues in original PDB
-grep "^ATOM" ${PDB_ID}.pdb | grep " ${CHAIN} " | head -n 20 > chain_${CHAIN}.txt
-grep " ASP ${CHAIN}  30" ${PDB_ID}.pdb >> residues.txt || echo "Asp30 not found" >> residues.txt
-grep " LYS ${CHAIN}  31" ${PDB_ID}.pdb >> residues.txt || echo "Lys31 not found" >> residues.txt
-grep " HIS ${CHAIN}  34" ${PDB_ID}.pdb >> residues.txt || echo "His34 not found" >> residues.txt
-grep " TYR ${CHAIN}  83" ${PDB_ID}.pdb >> residues.txt || echo "Tyr83 not found" >> residues.txt
-grep " LYS ${CHAIN} 353" ${PDB_ID}.pdb >> residues.txt || echo "Lys353 not found" >> residues.txt
 
 # Activate conda environment
 conda activate docking
 
-# Clean PDB to isolate ACE2 (chain A), remove solvent, add hydrogens
-pymol -c ${PDB_ID}.pdb -d "select chain ${CHAIN}; save ${PDB_ID}_ace2.pdb, sele; remove solvent; h_add; save ${PDB_ID}_clean.pdb, sele"
+# Verify chain A and key residues in original PDB
+grep "^ATOM" ${PDB_ID}.pdb | grep " ${CHAIN} " | head -n 20 > chain_${CHAIN}.txt
+grep " ASP ${CHAIN}  30" ${PDB_ID}.pdb || echo "Asp30 not found" >> residues.txt
+grep " LYS ${CHAIN}  31" ${PDB_ID}.pdb || echo "Lys31 not found" >> residues.txt
+grep " HIS ${CHAIN}  34" ${PDB_ID}.pdb || echo "His34 not found" >> residues.txt
+grep " TYR ${CHAIN}  83" ${PDB_ID}.pdb || echo "Tyr83 not found" >> residues.txt
+grep " LYS ${CHAIN} 353" ${PDB_ID}.pdb || echo "Lys353 not found" >> residues.txt
+cat residues.txt
+
+# Clean the PDB file using PyMOL (select chain A, remove solvent, add hydrogens)
+pymol -c ${PDB_ID}.pdb -d "select chain ${CHAIN}; remove not sele; remove solvent; h_add; save ${PDB_ID}_clean.pdb"
 if [ ! -s ${PDB_ID}_clean.pdb ]; then
-    echo "Error: ${PDB_ID}_clean.pdb is empty. Check input PDB and chain."
+    echo "Error: ${PDB_ID}_clean.pdb is empty"
     exit 1
 fi
 
-# Convert cleaned PDB to PDBQT for receptor
-obabel ${PDB_ID}_clean.pdb -O ${PDB_ID}_clean.pdbqt -xr -xh -p 7.4 --verbose 0
-ls -l ${PDB_ID}_clean.pdbqt
-
-# Verify active site residues in cleaned receptor
-pymol -c ${PDB_ID}_clean.pdb -d "select active_site, resi ${ACTIVE_SITE_RESIDUES} and chain ${CHAIN}; print(len(active_site))" > active_site.txt
+# Verify key residues in cleaned PDB
+pymol -c ${PDB_ID}_clean.pdb -d "select active_site, resi 30+31+34+83+353 and chain ${CHAIN}; print(len(active_site))" > active_site.txt
 cat active_site.txt
 
 # Calculate active site center
-pymol -c ${PDB_ID}_clean.pdb -d "select active_site, resi ${ACTIVE_SITE_RESIDUES} and chain ${CHAIN}; run https://raw.githubusercontent.com/Pymol-Scripts/Pymol-scripts/master/com.py; get_com active_site" > box_center.txt
+pymol -c ${PDB_ID}_clean.pdb -d "select active_site, resi 30+31+34+83+353 and chain ${CHAIN}; run https://raw.githubusercontent.com/Pymol-Scripts/Pymol-scripts/master/com.py; get_com active_site" > box_center.txt
 cat box_center.txt
+
+# Convert clean PDB to PDBQT for receptor
+obabel ${PDB_ID}_clean.pdb -O ${PDB_ID}_clean.pdbqt -xr -xh -p 7.4 --verbose 0
 
 # Generate ligand PDB from SMILES using RDKit
 echo "from rdkit import Chem
@@ -55,10 +53,10 @@ if mol:
     AllChem.EmbedMolecule(mol, randomSeed=88)
     AllChem.UFFOptimizeMolecule(mol)
     Chem.MolToPDBFile(mol, 'remdesivir_rdkit.pdb')
-    print('Ligand PDB generated')" > generate_remdesivir_pdb.py
+    print('PDB generated')" > generate_remdesivir_pdb.py
 python generate_remdesivir_pdb.py
 
-# Align ligand to active site center
+# Align ligand to active site center using RDKit
 echo "from rdkit import Chem
 mol = Chem.MolFromPDBFile('remdesivir_rdkit.pdb')
 if mol:
@@ -70,9 +68,7 @@ if mol:
         y_sum += pos.y
         z_sum += pos.z
         n += 1
-    x_center = x_sum / n
-    y_center = y_sum / n
-    z_center = z_sum / n
+    x_center, y_center, z_center = x_sum/n, y_sum/n, z_sum/n
     for i in range(mol.GetNumAtoms()):
         pos = conf.GetAtomPosition(i)
         conf.SetAtomPosition(i, (pos.x - x_center + ${CENTER_X}, pos.y - y_center + ${CENTER_Y}, pos.z - z_center + ${CENTER_Z}))
@@ -80,15 +76,18 @@ if mol:
     print('Ligand aligned to (${CENTER_X}, ${CENTER_Y}, ${CENTER_Z})')" > align_remdesivir.py
 python align_remdesivir.py
 
-# Convert aligned PDB to PDBQT and remove REMARK tags
+# Convert aligned PDB to PDBQT for ligand and remove REMARK tags
 obabel remdesivir_aligned.pdb -O remdesivir_aligned.pdbqt -xl -xh -p 7.4 --verbose 0
 sed -i '/^REMARK/d' remdesivir_aligned.pdbqt
-cat -n remdesivir_aligned.pdbqt | head -n 20
+cat -n remdesivir_aligned.pdbqt | head -n 20 > ligand.txt
+
+# Verify ligand coordinates
+grep "^ATOM" remdesivir_aligned.pdbqt | awk '{print $6, $7, $8}' | sort -n > ligand_coords.txt
 
 # Deactivate conda environment
 conda deactivate
 
-# Perform docking with GNINA
+# Run docking with GNINA using Docker
 docker run --gpus all -v $(pwd):/work -w /work gnina/gnina:latest gnina \
   --receptor ${PDB_ID}_clean.pdbqt \
   --ligand remdesivir_aligned.pdbqt \
@@ -97,31 +96,23 @@ docker run --gpus all -v $(pwd):/work -w /work gnina/gnina:latest gnina \
   --out test_gnina_specific.pdbqt \
   --cnn_scoring rescore \
   --seed 88 \
-  --exhaustiveness 32
+  --exhaustiveness 64
 
 # Verify docking output
 if [ -f "test_gnina_specific.pdbqt" ]; then
-    echo "Success: test_gnina_specific.pdbqt generated."
+    echo "Success: test_gnina_specific.pdbqt generated"
     ls -la test_gnina_specific.pdbqt
 else
-    echo "Error: Docking output not generated. Check logs."
+    echo "Error: Docking output not generated"
     exit 1
 fi
 
 # Activate conda environment for visualization
 conda activate docking
 
-# Create PyMOL visualization script
-echo "load test_gnina_specific.pdbqt
-load ${PDB_ID}_clean.pdbqt
-select active_site, resi ${ACTIVE_SITE_RESIDUES} and chain ${CHAIN}
-show sticks, active_site
-label active_site, resi + ' ' + resn
-zoom active_site
-bg_color white" > visualize.pml
-
-# Visualize docking results in PyMOL (interactive mode)
-pymol visualize.pml
+# Visualize results in PyMOL
+pymol -c test_gnina_specific.pdbqt ${PDB_ID}_clean.pdbqt -d "select active_site, resi 30+31+34+83+353 and chain ${CHAIN}; show sticks, active_site; label active_site, resi + resn; zoom active_site" > visualization.txt
+cat visualization.txt
 
 # Deactivate conda environment
 conda deactivate
