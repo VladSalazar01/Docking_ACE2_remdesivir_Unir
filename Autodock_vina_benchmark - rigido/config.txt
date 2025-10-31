@@ -1,0 +1,13 @@
+receptor = /data/receptor.pdbqt 
+ligand = /data/ligand.pdbqt
+out = /data/output.sdf 
+center_x = 12.470
+center_y = 15.461
+center_z = 49.907
+size_x = 20 
+size_y = 20 
+size_z = 20 
+exhaustiveness = 64
+num_modes = 1 
+cpu = 48  
+
