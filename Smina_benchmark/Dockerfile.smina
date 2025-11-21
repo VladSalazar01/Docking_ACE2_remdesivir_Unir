@@ -1,0 +1,7 @@
+FROM ubuntu:22.04
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && apt-get install -y wget git build-essential libboost-all-dev libeigen3-dev libopenbabel-dev openbabel && rm -rf /var/lib/apt/lists/*
+WORKDIR /opt
+RUN wget https://sourceforge.net/projects/smina/files/smina.static/download -O smina && chmod +x smina && mv smina /usr/local/bin/
+WORKDIR /workspace
+CMD ["smina", "--help"]

@@ -1,0 +1,24 @@
+{
+  "ultra_tight": {
+    "USE_LOCAL_ONLY": true,
+    "EXHAUSTIVENESS": 128,
+    "AUTOBOX_ADD": 3,
+    "NUM_MODES": 10,
+    "description": "Very tight box, local search only"
+  },
+  "high_ex_small_box": {
+    "USE_LOCAL_ONLY": false,
+    "EXHAUSTIVENESS": 96,
+    "AUTOBOX_ADD": 4,
+    "NUM_MODES": 30,
+    "description": "High exhaustiveness, small box"
+  },
+  "minimize_refine": {
+    "USE_LOCAL_ONLY": false,
+    "USE_MINIMIZE": true,
+    "EXHAUSTIVENESS": 64,
+    "AUTOBOX_ADD": 6,
+    "NUM_MODES": 20,
+    "description": "With post-docking minimization"
+  }
+}

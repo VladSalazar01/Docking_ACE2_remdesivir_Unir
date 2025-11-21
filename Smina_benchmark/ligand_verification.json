@@ -1,0 +1,11 @@
+{
+  "current": "G:\\Smina_benchmark\\ligand_A1IDX_fragment2.pdb",
+  "alternatives": [
+    "G:\\Smina_benchmark\\ligand_A1IDX.pdb",
+    "G:\\Smina_benchmark\\ligand_A1IDX_fragment1.pdb",
+    "G:\\Smina_benchmark\\ligand_A1IDX_from_cif.pdb"
+  ],
+  "issues": [
+    "Position may be incorrect"
+  ]
+}

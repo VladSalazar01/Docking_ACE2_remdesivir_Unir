@@ -1,0 +1,82 @@
+[
+  {
+    "section": "files",
+    "status": "OK",
+    "message": "Protein atoms: 11022"
+  },
+  {
+    "section": "files",
+    "status": "INFO",
+    "message": "Protein HETATM: 0"
+  },
+  {
+    "section": "files",
+    "status": "OK",
+    "message": "Ligand heavy atoms: 28"
+  },
+  {
+    "section": "files",
+    "status": "INFO",
+    "message": "Ligand H atoms: 0"
+  },
+  {
+    "section": "files",
+    "status": "WARN",
+    "message": "WARNING: No hydrogens in ligand - may need protonation"
+  },
+  {
+    "section": "box",
+    "status": "INFO",
+    "message": "X range: 10.58 A"
+  },
+  {
+    "section": "box",
+    "status": "INFO",
+    "message": "Y range: 5.28 A"
+  },
+  {
+    "section": "box",
+    "status": "INFO",
+    "message": "Z range: 9.14 A"
+  },
+  {
+    "section": "box",
+    "status": "WARN",
+    "message": "Padding 3A: 16.6 x 11.3 x 15.1 A (vol: 2830.0 A^3) (too tight, may fail)"
+  },
+  {
+    "section": "box",
+    "status": "WARN",
+    "message": "Padding 4A: 18.6 x 13.3 x 17.1 A (vol: 4228.0 A^3)"
+  },
+  {
+    "section": "box",
+    "status": "OK",
+    "message": "Padding 6A: 22.6 x 17.3 x 21.1 A (vol: 8246.0 A^3) (recommended)"
+  },
+  {
+    "section": "box",
+    "status": "OK",
+    "message": "Padding 8A: 26.6 x 21.3 x 25.1 A (vol: 14216.0 A^3) (recommended)"
+  },
+  {
+    "section": "box",
+    "status": "OK",
+    "message": "Padding 10A: 30.6 x 25.3 x 29.1 A (vol: 22522.0 A^3)"
+  },
+  {
+    "section": "mobility",
+    "status": "INFO",
+    "message": "CONECT lines: 0"
+  },
+  {
+    "section": "mobility",
+    "status": "INFO",
+    "message": "Atoms: 28, Flexibility: High"
+  },
+  {
+    "section": "mobility",
+    "status": "OK",
+    "message": "Recommendation: Use exhaustiveness 64-128"
+  }
+]
