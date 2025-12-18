@@ -1,0 +1,65 @@
+{
+  "results": [
+    {
+      "run_id": 1,
+      "success": false,
+      "time_s": 7.566789388656616,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 2,
+      "success": false,
+      "time_s": 7.487440586090088,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 3,
+      "success": false,
+      "time_s": 7.781617164611816,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 4,
+      "success": false,
+      "time_s": 7.6743597984313965,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 5,
+      "success": false,
+      "time_s": 7.634361743927002,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 6,
+      "success": false,
+      "time_s": 7.472068548202515,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 7,
+      "success": false,
+      "time_s": 7.51853084564209,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 8,
+      "success": false,
+      "time_s": 7.611387014389038,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 9,
+      "success": false,
+      "time_s": 7.4861273765563965,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 10,
+      "success": false,
+      "time_s": 7.930983781814575,
+      "rmsd_values": []
+    }
+  ],
+  "total_time": 76.1758246421814
+}

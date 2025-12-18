@@ -1,0 +1,21 @@
+version: 1
+sequences:
+  - protein:
+      id: A
+      sequence: GFWENSMLTDPGNVQKAVCHPTAWDLGKGDFRILMCTKVTMDDFLTAHHEMGHIQYDMAYAAQPFLLRNGANEGFHEAVGEIMSLSAATPKHLKSIGLLSPDFQEDNETEINFLLKQALTIVGTLPFTYMLEKWRWMVFKGEIPKDQWMKKWWEMKREIVGVVEPVPHDETYCDPASLFHVSNDYSFIRYYTRTLYQFQFQEALCQAAKHEGPLHKCDISNSTEAGQKLFNMLRLGKSEPWTLALENVVGAKNMNVRPL
+  - ligand:
+      id: B
+      smiles: "CC(C)C[C@H](NC(=O)[C@H](Cc1cn(Cc2cc(F)cc(Cl)c2)cn1)C(=O)O)C(=O)O"
+constraints:
+  - pocket:
+      binder: B
+      contacts:
+        - [A, 96]
+        - [A, 97]
+        - [A, 122]
+        - [A, 125]
+        - [A, 126]
+        - [A, 129]
+        - [A, 153]
+        - [A, 237]
+        - [A, 247]

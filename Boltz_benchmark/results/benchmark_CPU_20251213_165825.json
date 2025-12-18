@@ -1,0 +1,20 @@
+{
+  "mode": "CPU",
+  "protein_length": 722,
+  "diffusion_samples": 3,
+  "results": [
+    {
+      "run_id": 1,
+      "success": false,
+      "time_s": 15.335346460342407,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 2,
+      "success": false,
+      "time_s": 16.18693232536316,
+      "rmsd_values": []
+    }
+  ],
+  "total_time": 31.524276971817017
+}

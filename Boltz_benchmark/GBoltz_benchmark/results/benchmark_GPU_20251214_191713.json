@@ -1,0 +1,20 @@
+{
+  "mode": "GPU",
+  "protein_length": 259,
+  "diffusion_samples": 1,
+  "results": [
+    {
+      "run_id": 1,
+      "success": true,
+      "time_s": 442.17112708091736,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 2,
+      "success": true,
+      "time_s": 175.13041281700134,
+      "rmsd_values": []
+    }
+  ],
+  "total_time": 617.3168022632599
+}

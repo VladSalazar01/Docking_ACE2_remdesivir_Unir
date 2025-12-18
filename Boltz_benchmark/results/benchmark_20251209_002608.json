@@ -1,0 +1,65 @@
+{
+  "results": [
+    {
+      "run_id": 1,
+      "success": true,
+      "time_s": 7.62274956703186,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 2,
+      "success": true,
+      "time_s": 7.565208435058594,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 3,
+      "success": true,
+      "time_s": 7.537445545196533,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 4,
+      "success": true,
+      "time_s": 7.6259925365448,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 5,
+      "success": true,
+      "time_s": 7.552828311920166,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 6,
+      "success": true,
+      "time_s": 7.560287952423096,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 7,
+      "success": true,
+      "time_s": 7.546110153198242,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 8,
+      "success": true,
+      "time_s": 7.572859764099121,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 9,
+      "success": true,
+      "time_s": 7.60191535949707,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 10,
+      "success": true,
+      "time_s": 7.585718154907227,
+      "rmsd_values": []
+    }
+  ],
+  "total_time": 75.81815385818481
+}

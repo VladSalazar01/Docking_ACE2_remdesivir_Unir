@@ -1,0 +1,98 @@
+{
+  "mode": "GPU",
+  "protein_length": 259,
+  "diffusion_samples": 1,
+  "results": [
+    {
+      "run_id": 1,
+      "success": true,
+      "time_s": 91.98768591880798,
+      "rmsd_values": [
+        4.4711056467561825
+      ],
+      "best_rmsd": 4.4711056467561825
+    },
+    {
+      "run_id": 2,
+      "success": true,
+      "time_s": 94.17447996139526,
+      "rmsd_values": [
+        4.2102117996839805
+      ],
+      "best_rmsd": 4.2102117996839805
+    },
+    {
+      "run_id": 3,
+      "success": true,
+      "time_s": 93.35721707344055,
+      "rmsd_values": [
+        4.775827790637418
+      ],
+      "best_rmsd": 4.775827790637418
+    },
+    {
+      "run_id": 4,
+      "success": true,
+      "time_s": 93.75463199615479,
+      "rmsd_values": [
+        5.378561981661554
+      ],
+      "best_rmsd": 5.378561981661554
+    },
+    {
+      "run_id": 5,
+      "success": true,
+      "time_s": 93.41569137573242,
+      "rmsd_values": [
+        4.199305424356812
+      ],
+      "best_rmsd": 4.199305424356812
+    },
+    {
+      "run_id": 6,
+      "success": true,
+      "time_s": 95.49754047393799,
+      "rmsd_values": [
+        7.802550417011619
+      ],
+      "best_rmsd": 7.802550417011619
+    },
+    {
+      "run_id": 7,
+      "success": true,
+      "time_s": 110.8992612361908,
+      "rmsd_values": [
+        6.169376601310498
+      ],
+      "best_rmsd": 6.169376601310498
+    },
+    {
+      "run_id": 8,
+      "success": true,
+      "time_s": 105.09199213981628,
+      "rmsd_values": [
+        4.039625611892815
+      ],
+      "best_rmsd": 4.039625611892815
+    },
+    {
+      "run_id": 9,
+      "success": true,
+      "time_s": 94.58452796936035,
+      "rmsd_values": [
+        4.014548042864964
+      ],
+      "best_rmsd": 4.014548042864964
+    },
+    {
+      "run_id": 10,
+      "success": true,
+      "time_s": 101.86562848091125,
+      "rmsd_values": [
+        7.356853305292118
+      ],
+      "best_rmsd": 7.356853305292118
+    }
+  ],
+  "total_time": 975.464574098587
+}

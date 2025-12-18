@@ -1,0 +1,95 @@
+{
+  "results": [
+    {
+      "run_id": 1,
+      "success": true,
+      "time_s": 266.5612299442291,
+      "rmsd_values": [
+        4.419906692270578
+      ],
+      "best_rmsd": 4.419906692270578
+    },
+    {
+      "run_id": 2,
+      "success": true,
+      "time_s": 179.36029744148254,
+      "rmsd_values": [
+        4.206721783098276
+      ],
+      "best_rmsd": 4.206721783098276
+    },
+    {
+      "run_id": 3,
+      "success": true,
+      "time_s": 101.48541617393494,
+      "rmsd_values": [
+        4.7433677366143865
+      ],
+      "best_rmsd": 4.7433677366143865
+    },
+    {
+      "run_id": 4,
+      "success": true,
+      "time_s": 93.58624219894409,
+      "rmsd_values": [
+        5.648310736021388
+      ],
+      "best_rmsd": 5.648310736021388
+    },
+    {
+      "run_id": 5,
+      "success": true,
+      "time_s": 94.7749617099762,
+      "rmsd_values": [
+        4.116733955746775
+      ],
+      "best_rmsd": 4.116733955746775
+    },
+    {
+      "run_id": 6,
+      "success": true,
+      "time_s": 93.52992820739746,
+      "rmsd_values": [
+        7.772145631622016
+      ],
+      "best_rmsd": 7.772145631622016
+    },
+    {
+      "run_id": 7,
+      "success": true,
+      "time_s": 92.65280032157898,
+      "rmsd_values": [
+        6.3457447672992
+      ],
+      "best_rmsd": 6.3457447672992
+    },
+    {
+      "run_id": 8,
+      "success": true,
+      "time_s": 92.84535026550293,
+      "rmsd_values": [
+        4.107679429988264
+      ],
+      "best_rmsd": 4.107679429988264
+    },
+    {
+      "run_id": 9,
+      "success": true,
+      "time_s": 94.16309762001038,
+      "rmsd_values": [
+        4.007880058720883
+      ],
+      "best_rmsd": 4.007880058720883
+    },
+    {
+      "run_id": 10,
+      "success": true,
+      "time_s": 92.70495176315308,
+      "rmsd_values": [
+        7.322904458766488
+      ],
+      "best_rmsd": 7.322904458766488
+    }
+  ],
+  "total_time": 1202.4751625061035
+}

@@ -1,0 +1,53 @@
+{
+  "mode": "GPU",
+  "protein_length": 259,
+  "diffusion_samples": 1,
+  "results": [
+    {
+      "run_id": 1,
+      "success": true,
+      "time_s": 130.86331248283386,
+      "rmsd_values": [
+        6.773885822695224
+      ],
+      "best_rmsd": 6.773885822695224
+    },
+    {
+      "run_id": 2,
+      "success": true,
+      "time_s": 139.5184166431427,
+      "rmsd_values": [
+        4.270948936211854
+      ],
+      "best_rmsd": 4.270948936211854
+    },
+    {
+      "run_id": 3,
+      "success": true,
+      "time_s": 156.73410081863403,
+      "rmsd_values": [
+        3.98909664807557
+      ],
+      "best_rmsd": 3.98909664807557
+    },
+    {
+      "run_id": 4,
+      "success": true,
+      "time_s": 178.67031836509705,
+      "rmsd_values": [
+        5.850138868545442
+      ],
+      "best_rmsd": 5.850138868545442
+    },
+    {
+      "run_id": 5,
+      "success": true,
+      "time_s": 170.4694550037384,
+      "rmsd_values": [
+        7.254581701261551
+      ],
+      "best_rmsd": 7.254581701261551
+    }
+  ],
+  "total_time": 777.113894701004
+}

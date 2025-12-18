@@ -1,0 +1,65 @@
+{
+  "results": [
+    {
+      "run_id": 1,
+      "success": true,
+      "time_s": 598.0188474655151,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 2,
+      "success": true,
+      "time_s": 84.57272505760193,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 3,
+      "success": true,
+      "time_s": 83.48758387565613,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 4,
+      "success": true,
+      "time_s": 84.6827871799469,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 5,
+      "success": true,
+      "time_s": 84.21695494651794,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 6,
+      "success": true,
+      "time_s": 84.27077507972717,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 7,
+      "success": true,
+      "time_s": 89.0189859867096,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 8,
+      "success": true,
+      "time_s": 83.7757465839386,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 9,
+      "success": true,
+      "time_s": 84.76338243484497,
+      "rmsd_values": []
+    },
+    {
+      "run_id": 10,
+      "success": true,
+      "time_s": 83.47402548789978,
+      "rmsd_values": []
+    }
+  ],
+  "total_time": 1360.5570487976074
+}
