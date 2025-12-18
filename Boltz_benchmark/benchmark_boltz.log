@@ -1,0 +1,872 @@
+2025-12-08 19:36:26,031 - INFO - Referencia: 56 �tomos
+2025-12-08 19:36:26,032 - INFO - Prote�na: 722 residuos
+2025-12-08 19:36:26,032 - INFO - Ligando: A1IDX
+2025-12-08 19:36:26,032 - INFO - 
+=== RUN 1/10 ===
+2025-12-08 19:36:26,033 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_001\input.yaml
+2025-12-08 19:36:26,034 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_001\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_001 --recycling_steps 3 --diffusion_samples 5 --seed 43 --use_msa_server
+2025-12-08 19:37:59,113 - INFO - 
+=== RUN 2/10 ===
+2025-12-08 19:37:59,114 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_002\input.yaml
+2025-12-08 19:37:59,115 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_002\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_002 --recycling_steps 3 --diffusion_samples 5 --seed 44 --use_msa_server
+2025-12-08 19:41:05,875 - INFO - 
+=== RUN 3/10 ===
+2025-12-08 19:41:05,875 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_003\input.yaml
+2025-12-08 19:41:05,876 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_003\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_003 --recycling_steps 3 --diffusion_samples 5 --seed 45 --use_msa_server
+2025-12-08 19:41:13,183 - INFO - 
+=== RUN 4/10 ===
+2025-12-08 19:41:13,184 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_004\input.yaml
+2025-12-08 19:41:13,184 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_004\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_004 --recycling_steps 3 --diffusion_samples 5 --seed 46 --use_msa_server
+2025-12-08 19:41:20,549 - INFO - 
+=== RUN 5/10 ===
+2025-12-08 19:41:20,550 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_005\input.yaml
+2025-12-08 19:41:20,551 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_005\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_005 --recycling_steps 3 --diffusion_samples 5 --seed 47 --use_msa_server
+2025-12-08 19:41:28,085 - INFO - 
+=== RUN 6/10 ===
+2025-12-08 19:41:28,085 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_006\input.yaml
+2025-12-08 19:41:28,086 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_006\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_006 --recycling_steps 3 --diffusion_samples 5 --seed 48 --use_msa_server
+2025-12-08 19:41:35,673 - INFO - 
+=== RUN 7/10 ===
+2025-12-08 19:41:35,675 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_007\input.yaml
+2025-12-08 19:41:35,675 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_007\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_007 --recycling_steps 3 --diffusion_samples 5 --seed 49 --use_msa_server
+2025-12-08 19:41:43,126 - INFO - 
+=== RUN 8/10 ===
+2025-12-08 19:41:43,127 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_008\input.yaml
+2025-12-08 19:41:43,127 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_008\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_008 --recycling_steps 3 --diffusion_samples 5 --seed 50 --use_msa_server
+2025-12-08 19:41:50,618 - INFO - 
+=== RUN 9/10 ===
+2025-12-08 19:41:50,619 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_009\input.yaml
+2025-12-08 19:41:50,619 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_009\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_009 --recycling_steps 3 --diffusion_samples 5 --seed 51 --use_msa_server
+2025-12-08 19:41:58,007 - INFO - 
+=== RUN 10/10 ===
+2025-12-08 19:41:58,008 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_010\input.yaml
+2025-12-08 19:41:58,008 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_010\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_010 --recycling_steps 3 --diffusion_samples 5 --seed 52 --use_msa_server
+2025-12-08 21:00:49,963 - INFO - Referencia: 56 �tomos
+2025-12-08 21:00:49,964 - INFO - Prote�na: 722 residuos
+2025-12-08 21:00:49,964 - INFO - Ligando: A1IDX
+2025-12-08 21:00:49,964 - INFO - 
+=== RUN 1/10 ===
+2025-12-08 21:00:49,965 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_001\input.yaml
+2025-12-08 21:00:49,965 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_001\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_001 --recycling_steps 3 --diffusion_samples 5 --seed 43 --use_msa_server
+2025-12-08 21:00:57,300 - INFO - 
+=== RUN 2/10 ===
+2025-12-08 21:00:57,301 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_002\input.yaml
+2025-12-08 21:00:57,302 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_002\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_002 --recycling_steps 3 --diffusion_samples 5 --seed 44 --use_msa_server
+2025-12-08 21:01:04,894 - INFO - 
+=== RUN 3/10 ===
+2025-12-08 21:01:04,895 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_003\input.yaml
+2025-12-08 21:01:04,895 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_003\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_003 --recycling_steps 3 --diffusion_samples 5 --seed 45 --use_msa_server
+2025-12-08 21:01:12,279 - INFO - 
+=== RUN 4/10 ===
+2025-12-08 21:01:12,280 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_004\input.yaml
+2025-12-08 21:01:12,280 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_004\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_004 --recycling_steps 3 --diffusion_samples 5 --seed 46 --use_msa_server
+2025-12-08 21:03:19,723 - INFO - Referencia: 56 �tomos
+2025-12-08 21:03:19,723 - INFO - Prote�na: 722 residuos
+2025-12-08 21:03:19,723 - INFO - Ligando: A1IDX
+2025-12-08 21:03:19,723 - INFO - 
+=== RUN 1/10 ===
+2025-12-08 21:03:19,724 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_001\input.yaml
+2025-12-08 21:03:19,724 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_001\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_001 --recycling_steps 3 --diffusion_samples 5 --seed 43 --use_msa_server
+2025-12-08 21:03:27,290 - INFO - 
+=== RUN 2/10 ===
+2025-12-08 21:03:27,291 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_002\input.yaml
+2025-12-08 21:03:27,291 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_002\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_002 --recycling_steps 3 --diffusion_samples 5 --seed 44 --use_msa_server
+2025-12-08 21:03:34,779 - INFO - 
+=== RUN 3/10 ===
+2025-12-08 21:03:34,779 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_003\input.yaml
+2025-12-08 21:03:34,780 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_003\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_003 --recycling_steps 3 --diffusion_samples 5 --seed 45 --use_msa_server
+2025-12-08 21:03:42,562 - INFO - 
+=== RUN 4/10 ===
+2025-12-08 21:03:42,562 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_004\input.yaml
+2025-12-08 21:03:42,563 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_004\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_004 --recycling_steps 3 --diffusion_samples 5 --seed 46 --use_msa_server
+2025-12-08 21:03:50,237 - INFO - 
+=== RUN 5/10 ===
+2025-12-08 21:03:50,238 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_005\input.yaml
+2025-12-08 21:03:50,238 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_005\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_005 --recycling_steps 3 --diffusion_samples 5 --seed 47 --use_msa_server
+2025-12-08 21:03:57,872 - INFO - 
+=== RUN 6/10 ===
+2025-12-08 21:03:57,873 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_006\input.yaml
+2025-12-08 21:03:57,873 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_006\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_006 --recycling_steps 3 --diffusion_samples 5 --seed 48 --use_msa_server
+2025-12-08 21:04:05,346 - INFO - 
+=== RUN 7/10 ===
+2025-12-08 21:04:05,347 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_007\input.yaml
+2025-12-08 21:04:05,347 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_007\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_007 --recycling_steps 3 --diffusion_samples 5 --seed 49 --use_msa_server
+2025-12-08 21:04:12,866 - INFO - 
+=== RUN 8/10 ===
+2025-12-08 21:04:12,867 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_008\input.yaml
+2025-12-08 21:04:12,867 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_008\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_008 --recycling_steps 3 --diffusion_samples 5 --seed 50 --use_msa_server
+2025-12-08 21:04:20,478 - INFO - 
+=== RUN 9/10 ===
+2025-12-08 21:04:20,479 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_009\input.yaml
+2025-12-08 21:04:20,479 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_009\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_009 --recycling_steps 3 --diffusion_samples 5 --seed 51 --use_msa_server
+2025-12-08 21:04:27,966 - INFO - 
+=== RUN 10/10 ===
+2025-12-08 21:04:27,967 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_010\input.yaml
+2025-12-08 21:04:27,967 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_010\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_010 --recycling_steps 3 --diffusion_samples 5 --seed 52 --use_msa_server
+2025-12-08 21:16:21,485 - INFO - Referencia: 56 �tomos
+2025-12-08 21:16:21,485 - INFO - Prote�na: 722 residuos
+2025-12-08 21:16:21,485 - INFO - Ligando: A1IDX (SMILES)
+2025-12-08 21:16:21,485 - INFO - 
+=== RUN 1/10 ===
+2025-12-08 21:16:21,486 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_001\input.yaml
+2025-12-08 21:16:21,487 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_001\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_001 --recycling_steps 3 --diffusion_samples 5 --seed 43 --use_msa_server
+2025-12-08 21:16:28,910 - INFO - 
+=== RUN 2/10 ===
+2025-12-08 21:16:28,911 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_002\input.yaml
+2025-12-08 21:16:28,911 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_002\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_002 --recycling_steps 3 --diffusion_samples 5 --seed 44 --use_msa_server
+2025-12-08 21:16:36,471 - INFO - 
+=== RUN 3/10 ===
+2025-12-08 21:16:36,472 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_003\input.yaml
+2025-12-08 21:16:36,472 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_003\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_003 --recycling_steps 3 --diffusion_samples 5 --seed 45 --use_msa_server
+2025-12-08 21:16:44,008 - INFO - 
+=== RUN 4/10 ===
+2025-12-08 21:16:44,008 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_004\input.yaml
+2025-12-08 21:16:44,009 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_004\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_004 --recycling_steps 3 --diffusion_samples 5 --seed 46 --use_msa_server
+2025-12-08 21:16:51,562 - INFO - 
+=== RUN 5/10 ===
+2025-12-08 21:16:51,562 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_005\input.yaml
+2025-12-08 21:16:51,563 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_005\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_005 --recycling_steps 3 --diffusion_samples 5 --seed 47 --use_msa_server
+2025-12-08 21:16:58,987 - INFO - 
+=== RUN 6/10 ===
+2025-12-08 21:16:58,988 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_006\input.yaml
+2025-12-08 21:16:58,988 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_006\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_006 --recycling_steps 3 --diffusion_samples 5 --seed 48 --use_msa_server
+2025-12-08 21:17:06,567 - INFO - 
+=== RUN 7/10 ===
+2025-12-08 21:17:06,568 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_007\input.yaml
+2025-12-08 21:17:06,568 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_007\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_007 --recycling_steps 3 --diffusion_samples 5 --seed 49 --use_msa_server
+2025-12-08 21:17:14,014 - INFO - 
+=== RUN 8/10 ===
+2025-12-08 21:17:14,015 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_008\input.yaml
+2025-12-08 21:17:14,015 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_008\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_008 --recycling_steps 3 --diffusion_samples 5 --seed 50 --use_msa_server
+2025-12-08 21:17:21,423 - INFO - 
+=== RUN 9/10 ===
+2025-12-08 21:17:21,423 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_009\input.yaml
+2025-12-08 21:17:21,424 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_009\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_009 --recycling_steps 3 --diffusion_samples 5 --seed 51 --use_msa_server
+2025-12-08 21:17:28,863 - INFO - 
+=== RUN 10/10 ===
+2025-12-08 21:17:28,864 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_010\input.yaml
+2025-12-08 21:17:28,864 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_010\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_010 --recycling_steps 3 --diffusion_samples 5 --seed 52 --use_msa_server
+2025-12-09 00:24:52,785 - INFO - Referencia: 56 �tomos
+2025-12-09 00:24:52,785 - INFO - Prote�na: 722 residuos
+2025-12-09 00:24:52,786 - INFO - Ligando: A1IDX (SMILES)
+2025-12-09 00:24:52,786 - INFO - 
+=== RUN 1/10 ===
+2025-12-09 00:24:52,787 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_001\input.yaml
+2025-12-09 00:24:52,787 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_001\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_001 --recycling_steps 3 --diffusion_samples 5 --seed 43 --use_msa_server
+2025-12-09 00:25:00,430 - INFO - 
+=== RUN 2/10 ===
+2025-12-09 00:25:00,431 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_002\input.yaml
+2025-12-09 00:25:00,432 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_002\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_002 --recycling_steps 3 --diffusion_samples 5 --seed 44 --use_msa_server
+2025-12-09 00:25:07,999 - INFO - 
+=== RUN 3/10 ===
+2025-12-09 00:25:07,999 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_003\input.yaml
+2025-12-09 00:25:07,999 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_003\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_003 --recycling_steps 3 --diffusion_samples 5 --seed 45 --use_msa_server
+2025-12-09 00:25:15,540 - INFO - 
+=== RUN 4/10 ===
+2025-12-09 00:25:15,540 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_004\input.yaml
+2025-12-09 00:25:15,540 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_004\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_004 --recycling_steps 3 --diffusion_samples 5 --seed 46 --use_msa_server
+2025-12-09 00:25:23,168 - INFO - 
+=== RUN 5/10 ===
+2025-12-09 00:25:23,169 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_005\input.yaml
+2025-12-09 00:25:23,169 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_005\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_005 --recycling_steps 3 --diffusion_samples 5 --seed 47 --use_msa_server
+2025-12-09 00:25:30,723 - INFO - 
+=== RUN 6/10 ===
+2025-12-09 00:25:30,724 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_006\input.yaml
+2025-12-09 00:25:30,724 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_006\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_006 --recycling_steps 3 --diffusion_samples 5 --seed 48 --use_msa_server
+2025-12-09 00:25:38,286 - INFO - 
+=== RUN 7/10 ===
+2025-12-09 00:25:38,287 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_007\input.yaml
+2025-12-09 00:25:38,287 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_007\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_007 --recycling_steps 3 --diffusion_samples 5 --seed 49 --use_msa_server
+2025-12-09 00:25:45,834 - INFO - 
+=== RUN 8/10 ===
+2025-12-09 00:25:45,835 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_008\input.yaml
+2025-12-09 00:25:45,835 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_008\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_008 --recycling_steps 3 --diffusion_samples 5 --seed 50 --use_msa_server
+2025-12-09 00:25:53,411 - INFO - 
+=== RUN 9/10 ===
+2025-12-09 00:25:53,411 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_009\input.yaml
+2025-12-09 00:25:53,412 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_009\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_009 --recycling_steps 3 --diffusion_samples 5 --seed 51 --use_msa_server
+2025-12-09 00:26:01,016 - INFO - 
+=== RUN 10/10 ===
+2025-12-09 00:26:01,016 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_010\input.yaml
+2025-12-09 00:26:01,016 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_010\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_010 --recycling_steps 3 --diffusion_samples 5 --seed 52 --use_msa_server
+2025-12-12 15:50:49,827 - INFO - Referencia: 56 �tomos
+2025-12-12 15:50:49,827 - INFO - Prote�na: 211 residuos
+2025-12-12 15:50:49,828 - INFO - Ligando: A1IDX (SMILES)
+2025-12-12 15:50:49,828 - INFO - 
+=== RUN 1/10 ===
+2025-12-12 15:50:49,828 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_001\input.yaml
+2025-12-12 15:50:49,829 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_001\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_001 --recycling_steps 3 --diffusion_samples 1 --seed 43 --use_msa_server --no_trifast --override
+2025-12-12 16:00:47,908 - INFO - 
+=== RUN 2/10 ===
+2025-12-12 16:00:47,909 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_002\input.yaml
+2025-12-12 16:00:47,909 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_002\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_002 --recycling_steps 3 --diffusion_samples 1 --seed 44 --use_msa_server --no_trifast --override
+2025-12-12 16:02:12,504 - INFO - 
+=== RUN 3/10 ===
+2025-12-12 16:02:12,504 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_003\input.yaml
+2025-12-12 16:02:12,505 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_003\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_003 --recycling_steps 3 --diffusion_samples 1 --seed 45 --use_msa_server --no_trifast --override
+2025-12-12 16:03:36,015 - INFO - 
+=== RUN 4/10 ===
+2025-12-12 16:03:36,015 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_004\input.yaml
+2025-12-12 16:03:36,016 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_004\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_004 --recycling_steps 3 --diffusion_samples 1 --seed 46 --use_msa_server --no_trifast --override
+2025-12-12 16:05:00,715 - INFO - 
+=== RUN 5/10 ===
+2025-12-12 16:05:00,715 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_005\input.yaml
+2025-12-12 16:05:00,715 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_005\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_005 --recycling_steps 3 --diffusion_samples 1 --seed 47 --use_msa_server --no_trifast --override
+2025-12-12 16:06:24,947 - INFO - 
+=== RUN 6/10 ===
+2025-12-12 16:06:24,947 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_006\input.yaml
+2025-12-12 16:06:24,947 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_006\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_006 --recycling_steps 3 --diffusion_samples 1 --seed 48 --use_msa_server --no_trifast --override
+2025-12-12 16:07:49,249 - INFO - 
+=== RUN 7/10 ===
+2025-12-12 16:07:49,249 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_007\input.yaml
+2025-12-12 16:07:49,249 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_007\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_007 --recycling_steps 3 --diffusion_samples 1 --seed 49 --use_msa_server --no_trifast --override
+2025-12-12 16:09:18,284 - INFO - 
+=== RUN 8/10 ===
+2025-12-12 16:09:18,284 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_008\input.yaml
+2025-12-12 16:09:18,284 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_008\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_008 --recycling_steps 3 --diffusion_samples 1 --seed 50 --use_msa_server --no_trifast --override
+2025-12-12 16:10:42,091 - INFO - 
+=== RUN 9/10 ===
+2025-12-12 16:10:42,091 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_009\input.yaml
+2025-12-12 16:10:42,091 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_009\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_009 --recycling_steps 3 --diffusion_samples 1 --seed 51 --use_msa_server --no_trifast --override
+2025-12-12 16:12:06,870 - INFO - 
+=== RUN 10/10 ===
+2025-12-12 16:12:06,870 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_010\input.yaml
+2025-12-12 16:12:06,870 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_010\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_010 --recycling_steps 3 --diffusion_samples 1 --seed 52 --use_msa_server --no_trifast --override
+2025-12-13 00:38:27,854 - INFO - Referencia: 56 �tomos
+2025-12-13 00:38:27,855 - INFO - Prote�na: 211 residuos
+2025-12-13 00:38:27,855 - INFO - Ligando: A1IDX (SMILES)
+2025-12-13 00:38:27,855 - INFO - 
+=== RUN 1/10 ===
+2025-12-13 00:38:27,856 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_001\input.yaml
+2025-12-13 00:38:27,856 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_001\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_001 --recycling_steps 3 --diffusion_samples 1 --seed 43 --use_msa_server --no_trifast --override
+2025-12-13 00:51:10,603 - INFO -   Ref: 56 �tomos, Pred: 29 �tomos
+2025-12-13 00:51:10,612 - INFO -   input_model_0.cif: RMSD = 11.171 �
+2025-12-13 00:51:10,622 - INFO -   Ref: 56 �tomos, Pred: 29 �tomos
+2025-12-13 00:51:10,622 - INFO -   input_mini_model_0.cif: RMSD = 10.400 �
+2025-12-13 00:51:10,630 - INFO - 
+=== RUN 2/10 ===
+2025-12-13 00:51:10,631 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_002\input.yaml
+2025-12-13 00:51:10,631 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_002\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_002 --recycling_steps 3 --diffusion_samples 1 --seed 44 --use_msa_server --no_trifast --override
+2025-12-13 00:52:31,156 - INFO -   Ref: 56 �tomos, Pred: 29 �tomos
+2025-12-13 00:52:31,157 - INFO -   input_model_0.cif: RMSD = 10.100 �
+2025-12-13 00:52:31,159 - INFO - 
+=== RUN 3/10 ===
+2025-12-13 00:52:31,160 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_003\input.yaml
+2025-12-13 00:52:31,160 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_003\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_003 --recycling_steps 3 --diffusion_samples 1 --seed 45 --use_msa_server --no_trifast --override
+2025-12-13 00:53:51,565 - INFO -   Ref: 56 �tomos, Pred: 29 �tomos
+2025-12-13 00:53:51,566 - INFO -   input_model_0.cif: RMSD = 9.544 �
+2025-12-13 00:53:51,568 - INFO - 
+=== RUN 4/10 ===
+2025-12-13 00:53:51,569 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_004\input.yaml
+2025-12-13 00:53:51,569 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_004\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_004 --recycling_steps 3 --diffusion_samples 1 --seed 46 --use_msa_server --no_trifast --override
+2025-12-13 00:55:12,099 - INFO -   Ref: 56 �tomos, Pred: 29 �tomos
+2025-12-13 00:55:12,100 - INFO -   input_model_0.cif: RMSD = 11.065 �
+2025-12-13 00:55:12,102 - INFO - 
+=== RUN 5/10 ===
+2025-12-13 00:55:12,103 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_005\input.yaml
+2025-12-13 00:55:12,103 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_005\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_005 --recycling_steps 3 --diffusion_samples 1 --seed 47 --use_msa_server --no_trifast --override
+2025-12-13 00:56:32,987 - INFO -   Ref: 56 �tomos, Pred: 29 �tomos
+2025-12-13 00:56:32,987 - INFO -   input_model_0.cif: RMSD = 10.583 �
+2025-12-13 00:56:32,990 - INFO - 
+=== RUN 6/10 ===
+2025-12-13 00:56:32,990 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_006\input.yaml
+2025-12-13 00:56:32,991 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_006\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_006 --recycling_steps 3 --diffusion_samples 1 --seed 48 --use_msa_server --no_trifast --override
+2025-12-13 00:57:53,660 - INFO -   Ref: 56 �tomos, Pred: 29 �tomos
+2025-12-13 00:57:53,660 - INFO -   input_model_0.cif: RMSD = 10.497 �
+2025-12-13 00:57:53,663 - INFO - 
+=== RUN 7/10 ===
+2025-12-13 00:57:53,663 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_007\input.yaml
+2025-12-13 00:57:53,663 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_007\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_007 --recycling_steps 3 --diffusion_samples 1 --seed 49 --use_msa_server --no_trifast --override
+2025-12-13 00:59:14,343 - INFO -   Ref: 56 �tomos, Pred: 29 �tomos
+2025-12-13 00:59:14,344 - INFO -   input_model_0.cif: RMSD = 10.370 �
+2025-12-13 00:59:14,347 - INFO - 
+=== RUN 8/10 ===
+2025-12-13 00:59:14,347 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_008\input.yaml
+2025-12-13 00:59:14,347 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_008\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_008 --recycling_steps 3 --diffusion_samples 1 --seed 50 --use_msa_server --no_trifast --override
+2025-12-13 01:00:35,223 - INFO -   Ref: 56 �tomos, Pred: 29 �tomos
+2025-12-13 01:00:35,223 - INFO -   input_model_0.cif: RMSD = 9.777 �
+2025-12-13 01:00:35,226 - INFO - 
+=== RUN 9/10 ===
+2025-12-13 01:00:35,226 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_009\input.yaml
+2025-12-13 01:00:35,227 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_009\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_009 --recycling_steps 3 --diffusion_samples 1 --seed 51 --use_msa_server --no_trifast --override
+2025-12-13 01:01:55,775 - INFO -   Ref: 56 �tomos, Pred: 29 �tomos
+2025-12-13 01:01:55,776 - INFO -   input_model_0.cif: RMSD = 11.248 �
+2025-12-13 01:01:55,779 - INFO - 
+=== RUN 10/10 ===
+2025-12-13 01:01:55,779 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_010\input.yaml
+2025-12-13 01:01:55,780 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_010\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_010 --recycling_steps 3 --diffusion_samples 1 --seed 52 --use_msa_server --no_trifast --override
+2025-12-13 01:03:16,327 - INFO -   Ref: 56 �tomos, Pred: 29 �tomos
+2025-12-13 01:03:16,327 - INFO -   input_model_0.cif: RMSD = 10.474 �
+2025-12-13 09:21:49,405 - INFO - Referencia: 28 atomos (ligand_ref_801.pdb)
+2025-12-13 09:21:49,406 - INFO - Proteina: 211 residuos
+2025-12-13 09:21:49,406 - INFO - Ligando: A1IDX (SMILES)
+2025-12-13 09:21:49,406 - INFO - 
+=== RUN 1/10 ===
+2025-12-13 09:21:49,407 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_001\input.yaml
+2025-12-13 09:21:49,407 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_001\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_001 --recycling_steps 3 --diffusion_samples 1 --seed 43 --use_msa_server --no_trifast --override
+2025-12-13 09:31:37,933 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 09:31:38,025 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 09:31:38,026 - INFO -   input_model_0.cif: RMSD = 7.345 A
+2025-12-13 09:31:38,030 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 09:31:38,084 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 09:31:38,085 - INFO -   input_mini_model_0.cif: RMSD = 4.591 A
+2025-12-13 09:31:38,087 - INFO -   -> Mejor: 4.591 A
+2025-12-13 09:31:38,088 - INFO - 
+=== RUN 2/10 ===
+2025-12-13 09:31:38,088 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_002\input.yaml
+2025-12-13 09:31:38,089 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_002\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_002 --recycling_steps 3 --diffusion_samples 1 --seed 44 --use_msa_server --no_trifast --override
+2025-12-13 09:32:58,304 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 09:32:58,357 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 09:32:58,358 - INFO -   input_model_0.cif: RMSD = 5.768 A
+2025-12-13 09:32:58,359 - INFO -   -> Mejor: 5.768 A
+2025-12-13 09:32:58,359 - INFO - 
+=== RUN 3/10 ===
+2025-12-13 09:32:58,360 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_003\input.yaml
+2025-12-13 09:32:58,360 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_003\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_003 --recycling_steps 3 --diffusion_samples 1 --seed 45 --use_msa_server --no_trifast --override
+2025-12-13 09:34:18,440 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 09:34:18,495 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 09:34:18,496 - INFO -   input_model_0.cif: RMSD = 5.406 A
+2025-12-13 09:34:18,496 - INFO -   -> Mejor: 5.406 A
+2025-12-13 09:34:18,497 - INFO - 
+=== RUN 4/10 ===
+2025-12-13 09:34:18,497 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_004\input.yaml
+2025-12-13 09:34:18,498 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_004\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_004 --recycling_steps 3 --diffusion_samples 1 --seed 46 --use_msa_server --no_trifast --override
+2025-12-13 09:35:38,515 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 09:35:38,572 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 09:35:38,573 - INFO -   input_model_0.cif: RMSD = 7.657 A
+2025-12-13 09:35:38,573 - INFO -   -> Mejor: 7.657 A
+2025-12-13 09:35:38,574 - INFO - 
+=== RUN 5/10 ===
+2025-12-13 09:35:38,574 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_005\input.yaml
+2025-12-13 09:35:38,574 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_005\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_005 --recycling_steps 3 --diffusion_samples 1 --seed 47 --use_msa_server --no_trifast --override
+2025-12-13 09:36:58,874 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 09:36:58,928 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 09:36:58,929 - INFO -   input_model_0.cif: RMSD = 4.050 A
+2025-12-13 09:36:58,930 - INFO -   -> Mejor: 4.050 A
+2025-12-13 09:36:58,930 - INFO - 
+=== RUN 6/10 ===
+2025-12-13 09:36:58,931 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_006\input.yaml
+2025-12-13 09:36:58,931 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_006\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_006 --recycling_steps 3 --diffusion_samples 1 --seed 48 --use_msa_server --no_trifast --override
+2025-12-13 09:38:19,044 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 09:38:19,099 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 09:38:19,100 - INFO -   input_model_0.cif: RMSD = 7.149 A
+2025-12-13 09:38:19,100 - INFO -   -> Mejor: 7.149 A
+2025-12-13 09:38:19,101 - INFO - 
+=== RUN 7/10 ===
+2025-12-13 09:38:19,101 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_007\input.yaml
+2025-12-13 09:38:19,102 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_007\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_007 --recycling_steps 3 --diffusion_samples 1 --seed 49 --use_msa_server --no_trifast --override
+2025-12-13 09:39:39,234 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 09:39:39,289 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 09:39:39,290 - INFO -   input_model_0.cif: RMSD = 5.446 A
+2025-12-13 09:39:39,291 - INFO -   -> Mejor: 5.446 A
+2025-12-13 09:39:39,291 - INFO - 
+=== RUN 8/10 ===
+2025-12-13 09:39:39,292 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_008\input.yaml
+2025-12-13 09:39:39,292 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_008\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_008 --recycling_steps 3 --diffusion_samples 1 --seed 50 --use_msa_server --no_trifast --override
+2025-12-13 09:40:59,760 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 09:40:59,813 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 09:40:59,814 - INFO -   input_model_0.cif: RMSD = 6.919 A
+2025-12-13 09:40:59,815 - INFO -   -> Mejor: 6.919 A
+2025-12-13 09:40:59,815 - INFO - 
+=== RUN 9/10 ===
+2025-12-13 09:40:59,816 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_009\input.yaml
+2025-12-13 09:40:59,816 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_009\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_009 --recycling_steps 3 --diffusion_samples 1 --seed 51 --use_msa_server --no_trifast --override
+2025-12-13 09:42:20,242 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 09:42:20,296 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 09:42:20,297 - INFO -   input_model_0.cif: RMSD = 4.748 A
+2025-12-13 09:42:20,298 - INFO -   -> Mejor: 4.748 A
+2025-12-13 09:42:20,298 - INFO - 
+=== RUN 10/10 ===
+2025-12-13 09:42:20,298 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_010\input.yaml
+2025-12-13 09:42:20,299 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_010\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_010 --recycling_steps 3 --diffusion_samples 1 --seed 52 --use_msa_server --no_trifast --override
+2025-12-13 09:43:40,408 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 09:43:40,463 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 09:43:40,464 - INFO -   input_model_0.cif: RMSD = 4.951 A
+2025-12-13 09:43:40,465 - INFO -   -> Mejor: 4.951 A
+2025-12-13 15:22:40,221 - INFO - Referencia: 28 atomos (ligand_ref_801.pdb)
+2025-12-13 15:22:40,221 - INFO - Proteina: 259 residuos (dominio catalitico)
+2025-12-13 15:22:40,221 - INFO - Pocket: 9 residuos del sitio activo
+2025-12-13 15:22:40,221 - INFO - Ligando: A1IDX (SMILES)
+2025-12-13 15:22:40,222 - INFO - 
+=== RUN 1/10 ===
+2025-12-13 15:22:40,223 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_001\input.yaml (pocket=Si)
+2025-12-13 15:22:40,223 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_001\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_001 --recycling_steps 3 --diffusion_samples 1 --seed 43 --use_msa_server --no_trifast --override
+2025-12-13 15:27:06,805 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 15:27:06,892 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 15:27:06,894 - INFO -   input_model_0.cif: RMSD = 4.420 A
+2025-12-13 15:27:06,894 - INFO -   -> Mejor: 4.420 A
+2025-12-13 15:27:06,895 - INFO - 
+=== RUN 2/10 ===
+2025-12-13 15:27:06,895 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_002\input.yaml (pocket=Si)
+2025-12-13 15:27:06,896 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_002\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_002 --recycling_steps 3 --diffusion_samples 1 --seed 44 --use_msa_server --no_trifast --override
+2025-12-13 15:30:06,278 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 15:30:06,332 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 15:30:06,333 - INFO -   input_model_0.cif: RMSD = 4.207 A
+2025-12-13 15:30:06,333 - INFO -   -> Mejor: 4.207 A
+2025-12-13 15:30:06,334 - INFO - 
+=== RUN 3/10 ===
+2025-12-13 15:30:06,334 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_003\input.yaml (pocket=Si)
+2025-12-13 15:30:06,335 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_003\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_003 --recycling_steps 3 --diffusion_samples 1 --seed 45 --use_msa_server --no_trifast --override
+2025-12-13 15:31:47,839 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 15:31:47,893 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 15:31:47,894 - INFO -   input_model_0.cif: RMSD = 4.743 A
+2025-12-13 15:31:47,895 - INFO -   -> Mejor: 4.743 A
+2025-12-13 15:31:47,895 - INFO - 
+=== RUN 4/10 ===
+2025-12-13 15:31:47,896 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_004\input.yaml (pocket=Si)
+2025-12-13 15:31:47,896 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_004\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_004 --recycling_steps 3 --diffusion_samples 1 --seed 46 --use_msa_server --no_trifast --override
+2025-12-13 15:33:21,504 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 15:33:21,559 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 15:33:21,560 - INFO -   input_model_0.cif: RMSD = 5.648 A
+2025-12-13 15:33:21,560 - INFO -   -> Mejor: 5.648 A
+2025-12-13 15:33:21,561 - INFO - 
+=== RUN 5/10 ===
+2025-12-13 15:33:21,561 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_005\input.yaml (pocket=Si)
+2025-12-13 15:33:21,562 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_005\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_005 --recycling_steps 3 --diffusion_samples 1 --seed 47 --use_msa_server --no_trifast --override
+2025-12-13 15:34:56,356 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 15:34:56,411 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 15:34:56,412 - INFO -   input_model_0.cif: RMSD = 4.117 A
+2025-12-13 15:34:56,413 - INFO -   -> Mejor: 4.117 A
+2025-12-13 15:34:56,413 - INFO - 
+=== RUN 6/10 ===
+2025-12-13 15:34:56,414 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_006\input.yaml (pocket=Si)
+2025-12-13 15:34:56,414 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_006\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_006 --recycling_steps 3 --diffusion_samples 1 --seed 48 --use_msa_server --no_trifast --override
+2025-12-13 15:36:29,965 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 15:36:30,019 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 15:36:30,020 - INFO -   input_model_0.cif: RMSD = 7.772 A
+2025-12-13 15:36:30,020 - INFO -   -> Mejor: 7.772 A
+2025-12-13 15:36:30,021 - INFO - 
+=== RUN 7/10 ===
+2025-12-13 15:36:30,022 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_007\input.yaml (pocket=Si)
+2025-12-13 15:36:30,022 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_007\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_007 --recycling_steps 3 --diffusion_samples 1 --seed 49 --use_msa_server --no_trifast --override
+2025-12-13 15:38:02,695 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 15:38:02,749 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 15:38:02,750 - INFO -   input_model_0.cif: RMSD = 6.346 A
+2025-12-13 15:38:02,751 - INFO -   -> Mejor: 6.346 A
+2025-12-13 15:38:02,751 - INFO - 
+=== RUN 8/10 ===
+2025-12-13 15:38:02,752 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_008\input.yaml (pocket=Si)
+2025-12-13 15:38:02,752 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_008\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_008 --recycling_steps 3 --diffusion_samples 1 --seed 50 --use_msa_server --no_trifast --override
+2025-12-13 15:39:35,616 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 15:39:35,670 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 15:39:35,671 - INFO -   input_model_0.cif: RMSD = 4.108 A
+2025-12-13 15:39:35,671 - INFO -   -> Mejor: 4.108 A
+2025-12-13 15:39:35,672 - INFO - 
+=== RUN 9/10 ===
+2025-12-13 15:39:35,672 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_009\input.yaml (pocket=Si)
+2025-12-13 15:39:35,673 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_009\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_009 --recycling_steps 3 --diffusion_samples 1 --seed 51 --use_msa_server --no_trifast --override
+2025-12-13 15:41:09,855 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 15:41:09,911 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 15:41:09,913 - INFO -   input_model_0.cif: RMSD = 4.008 A
+2025-12-13 15:41:09,914 - INFO -   -> Mejor: 4.008 A
+2025-12-13 15:41:09,914 - INFO - 
+=== RUN 10/10 ===
+2025-12-13 15:41:09,914 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs\run_010\input.yaml (pocket=Si)
+2025-12-13 15:41:09,915 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs\run_010\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs\run_010 --recycling_steps 3 --diffusion_samples 1 --seed 52 --use_msa_server --no_trifast --override
+2025-12-13 15:42:42,639 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 15:42:42,695 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 15:42:42,696 - INFO -   input_model_0.cif: RMSD = 7.323 A
+2025-12-13 15:42:42,697 - INFO -   -> Mejor: 7.323 A
+2025-12-13 16:38:01,019 - INFO - Modo GPU: Secuencia truncada (261 res), diffusion_samples=1
+2025-12-13 16:38:01,019 - INFO - Referencia: 28 atomos (ligand_ref_801.pdb)
+2025-12-13 16:38:01,019 - INFO - Modo: GPU
+2025-12-13 16:38:01,019 - INFO - Proteina: 259 residuos
+2025-12-13 16:38:01,019 - INFO - Pocket: 9 residuos del sitio activo
+2025-12-13 16:38:01,019 - INFO - Ligando: A1IDX (SMILES)
+2025-12-13 16:38:01,019 - INFO - 
+=== RUN 1/10 ===
+2025-12-13 16:38:01,019 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_gpu\run_001\input.yaml (pocket=Si)
+2025-12-13 16:38:01,019 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_gpu\run_001\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_gpu\run_001 --recycling_steps 3 --diffusion_samples 1 --seed 43 --use_msa_server --no_trifast --override
+2025-12-13 16:39:34,526 - INFO - Modo HYBRID: GPU (261 res) + 1 validacion CPU (722 res)
+2025-12-13 16:39:34,526 - INFO - Referencia: 28 atomos (ligand_ref_801.pdb)
+2025-12-13 16:39:34,526 - INFO - Modo: HYBRID
+2025-12-13 16:39:34,526 - INFO - Proteina: 259 residuos
+2025-12-13 16:39:34,526 - INFO - Pocket: 9 residuos del sitio activo
+2025-12-13 16:39:34,526 - INFO - Ligando: A1IDX (SMILES)
+2025-12-13 16:39:34,526 - INFO - 
+=== RUN 1/10 ===
+2025-12-13 16:39:34,526 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_hybrid\run_001\input.yaml (pocket=Si)
+2025-12-13 16:39:34,526 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_hybrid\run_001\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_hybrid\run_001 --recycling_steps 3 --diffusion_samples 1 --seed 43 --use_msa_server --no_trifast --override
+2025-12-13 16:41:06,994 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 16:41:07,085 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 16:41:07,085 - INFO -   input_model_0.cif: RMSD = 4.420 A
+2025-12-13 16:41:07,085 - INFO -   -> Mejor: 4.420 A
+2025-12-13 16:41:07,085 - INFO - 
+=== RUN 2/10 ===
+2025-12-13 16:41:07,085 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_hybrid\run_002\input.yaml (pocket=Si)
+2025-12-13 16:41:07,085 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_hybrid\run_002\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_hybrid\run_002 --recycling_steps 3 --diffusion_samples 1 --seed 44 --use_msa_server --no_trifast --override
+2025-12-13 16:42:40,401 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 16:42:40,466 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 16:42:40,466 - INFO -   input_model_0.cif: RMSD = 4.207 A
+2025-12-13 16:42:40,466 - INFO -   -> Mejor: 4.207 A
+2025-12-13 16:42:40,466 - INFO - 
+=== RUN 3/10 ===
+2025-12-13 16:42:40,466 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_hybrid\run_003\input.yaml (pocket=Si)
+2025-12-13 16:42:40,466 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_hybrid\run_003\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_hybrid\run_003 --recycling_steps 3 --diffusion_samples 1 --seed 45 --use_msa_server --no_trifast --override
+2025-12-13 16:44:12,714 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 16:44:12,774 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 16:44:12,775 - INFO -   input_model_0.cif: RMSD = 4.743 A
+2025-12-13 16:44:12,776 - INFO -   -> Mejor: 4.743 A
+2025-12-13 16:44:12,776 - INFO - 
+=== RUN 4/10 ===
+2025-12-13 16:44:12,777 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_hybrid\run_004\input.yaml (pocket=Si)
+2025-12-13 16:44:12,777 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_hybrid\run_004\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_hybrid\run_004 --recycling_steps 3 --diffusion_samples 1 --seed 46 --use_msa_server --no_trifast --override
+2025-12-13 16:45:47,866 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 16:45:47,928 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 16:45:47,928 - INFO -   input_model_0.cif: RMSD = 5.648 A
+2025-12-13 16:45:47,928 - INFO -   -> Mejor: 5.648 A
+2025-12-13 16:45:47,928 - INFO - 
+=== RUN 5/10 ===
+2025-12-13 16:45:47,928 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_hybrid\run_005\input.yaml (pocket=Si)
+2025-12-13 16:45:47,928 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_hybrid\run_005\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_hybrid\run_005 --recycling_steps 3 --diffusion_samples 1 --seed 47 --use_msa_server --no_trifast --override
+2025-12-13 16:47:19,897 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 16:47:19,941 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 16:47:19,941 - INFO -   input_model_0.cif: RMSD = 4.117 A
+2025-12-13 16:47:19,941 - INFO -   -> Mejor: 4.117 A
+2025-12-13 16:47:19,941 - INFO - 
+=== RUN 6/10 ===
+2025-12-13 16:47:19,941 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_hybrid\run_006\input.yaml (pocket=Si)
+2025-12-13 16:47:19,941 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_hybrid\run_006\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_hybrid\run_006 --recycling_steps 3 --diffusion_samples 1 --seed 48 --use_msa_server --no_trifast --override
+2025-12-13 16:48:53,296 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 16:48:53,358 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 16:48:53,358 - INFO -   input_model_0.cif: RMSD = 7.772 A
+2025-12-13 16:48:53,358 - INFO -   -> Mejor: 7.772 A
+2025-12-13 16:48:53,358 - INFO - 
+=== RUN 7/10 ===
+2025-12-13 16:48:53,358 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_hybrid\run_007\input.yaml (pocket=Si)
+2025-12-13 16:48:53,358 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_hybrid\run_007\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_hybrid\run_007 --recycling_steps 3 --diffusion_samples 1 --seed 49 --use_msa_server --no_trifast --override
+2025-12-13 16:50:26,664 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 16:50:26,727 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 16:50:26,728 - INFO -   input_model_0.cif: RMSD = 6.346 A
+2025-12-13 16:50:26,729 - INFO -   -> Mejor: 6.346 A
+2025-12-13 16:50:26,730 - INFO - 
+=== RUN 8/10 ===
+2025-12-13 16:50:26,730 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_hybrid\run_008\input.yaml (pocket=Si)
+2025-12-13 16:50:26,730 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_hybrid\run_008\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_hybrid\run_008 --recycling_steps 3 --diffusion_samples 1 --seed 50 --use_msa_server --no_trifast --override
+2025-12-13 16:51:59,397 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 16:51:59,452 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 16:51:59,452 - INFO -   input_model_0.cif: RMSD = 4.108 A
+2025-12-13 16:51:59,452 - INFO -   -> Mejor: 4.108 A
+2025-12-13 16:51:59,452 - INFO - 
+=== RUN 9/10 ===
+2025-12-13 16:51:59,468 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_hybrid\run_009\input.yaml (pocket=Si)
+2025-12-13 16:51:59,468 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_hybrid\run_009\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_hybrid\run_009 --recycling_steps 3 --diffusion_samples 1 --seed 51 --use_msa_server --no_trifast --override
+2025-12-13 16:53:42,949 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 16:53:43,006 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 16:53:43,008 - INFO -   input_model_0.cif: RMSD = 4.008 A
+2025-12-13 16:53:43,009 - INFO -   -> Mejor: 4.008 A
+2025-12-13 16:53:43,009 - INFO - 
+=== RUN 10/10 ===
+2025-12-13 16:53:43,010 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_hybrid\run_010\input.yaml (pocket=Si)
+2025-12-13 16:53:43,011 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_hybrid\run_010\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_hybrid\run_010 --recycling_steps 3 --diffusion_samples 1 --seed 52 --use_msa_server --no_trifast --override
+2025-12-13 16:55:18,908 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 16:55:18,962 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 16:55:18,963 - INFO -   input_model_0.cif: RMSD = 7.323 A
+2025-12-13 16:55:18,964 - INFO -   -> Mejor: 7.323 A
+2025-12-13 16:55:23,473 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_cpu_validation\run_cpu_001\input.yaml (pocket=Si)
+2025-12-13 16:55:23,473 - INFO - CPU Validation: 722 residuos, diffusion_samples=3
+2025-12-13 16:55:23,473 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_cpu_validation\run_cpu_001\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_cpu_validation\run_cpu_001 --recycling_steps 3 --diffusion_samples 3 --seed 999 --use_msa_server --no_trifast --override
+2025-12-13 16:57:49,245 - INFO - Modo CPU: Secuencia completa (722 res), diffusion_samples=3, runs=3
+2025-12-13 16:57:53,730 - INFO - Referencia: 28 atomos (ligand_ref_801.pdb)
+2025-12-13 16:57:53,730 - INFO - Modo: CPU
+2025-12-13 16:57:53,730 - INFO - Proteina: 722 residuos
+2025-12-13 16:57:53,730 - INFO - Pocket: 9 residuos del sitio activo
+2025-12-13 16:57:53,731 - INFO - Ligando: A1IDX (SMILES)
+2025-12-13 16:57:53,731 - INFO - 
+=== RUN 1/2 ===
+2025-12-13 16:57:53,731 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_cpu\run_001\input.yaml (pocket=Si)
+2025-12-13 16:57:53,732 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_cpu\run_001\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_cpu\run_001 --recycling_steps 3 --diffusion_samples 3 --seed 43 --use_msa_server --no_trifast --override
+2025-12-13 16:58:09,067 - INFO - 
+=== RUN 2/2 ===
+2025-12-13 16:58:09,068 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_cpu\run_002\input.yaml (pocket=Si)
+2025-12-13 16:58:09,068 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_cpu\run_002\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_cpu\run_002 --recycling_steps 3 --diffusion_samples 3 --seed 44 --use_msa_server --no_trifast --override
+2025-12-13 18:03:16,923 - INFO - Modo CPU: Secuencia completa (722 res), diffusion_samples=3, runs=3
+2025-12-13 18:03:19,153 - INFO - Referencia: 28 atomos (ligand_ref_801.pdb)
+2025-12-13 18:03:19,154 - INFO - Modo: CPU
+2025-12-13 18:03:19,154 - INFO - Proteina: 722 residuos
+2025-12-13 18:03:19,154 - INFO - Pocket: 9 residuos del sitio activo
+2025-12-13 18:03:19,154 - INFO - Ligando: A1IDX (SMILES)
+2025-12-13 18:03:19,154 - INFO - 
+=== RUN 1/1 ===
+2025-12-13 18:03:19,155 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_cpu\run_001\input.yaml (pocket=Si)
+2025-12-13 18:03:19,155 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_cpu\run_001\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_cpu\run_001 --recycling_steps 3 --diffusion_samples 3 --seed 43 --accelerator cpu --use_msa_server --no_trifast --override
+2025-12-13 23:46:15,466 - INFO - Modo GPU: Secuencia truncada (261 res), diffusion_samples=1
+2025-12-13 23:46:15,476 - INFO - Referencia: 28 atomos (ligand_ref_801.pdb)
+2025-12-13 23:46:15,477 - INFO - Modo: GPU
+2025-12-13 23:46:15,477 - INFO - Proteina: 259 residuos
+2025-12-13 23:46:15,477 - INFO - Pocket: 9 residuos del sitio activo
+2025-12-13 23:46:15,477 - INFO - Ligando: A1IDX (SMILES)
+2025-12-13 23:46:15,478 - INFO - 
+=== RUN 1/10 ===
+2025-12-13 23:46:15,478 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r5\run_001\input.yaml (pocket=Si)
+2025-12-13 23:46:15,479 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r5\run_001\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r5\run_001 --recycling_steps 5 --diffusion_samples 1 --seed 43 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-13 23:48:01,740 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 23:48:01,832 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 23:48:01,841 - INFO -   input_model_0.cif: RMSD = 4.327 A
+2025-12-13 23:48:01,842 - INFO -   -> Mejor: 4.327 A
+2025-12-13 23:48:01,842 - INFO - 
+=== RUN 2/10 ===
+2025-12-13 23:48:01,843 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r5\run_002\input.yaml (pocket=Si)
+2025-12-13 23:48:01,843 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r5\run_002\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r5\run_002 --recycling_steps 5 --diffusion_samples 1 --seed 44 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-13 23:49:42,676 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 23:49:42,731 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 23:49:42,732 - INFO -   input_model_0.cif: RMSD = 6.813 A
+2025-12-13 23:49:42,732 - INFO -   -> Mejor: 6.813 A
+2025-12-13 23:49:42,733 - INFO - 
+=== RUN 3/10 ===
+2025-12-13 23:49:42,734 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r5\run_003\input.yaml (pocket=Si)
+2025-12-13 23:49:42,734 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r5\run_003\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r5\run_003 --recycling_steps 5 --diffusion_samples 1 --seed 45 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-13 23:51:24,018 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 23:51:24,073 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 23:51:24,074 - INFO -   input_model_0.cif: RMSD = 4.267 A
+2025-12-13 23:51:24,075 - INFO -   -> Mejor: 4.267 A
+2025-12-13 23:51:24,075 - INFO - 
+=== RUN 4/10 ===
+2025-12-13 23:51:24,076 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r5\run_004\input.yaml (pocket=Si)
+2025-12-13 23:51:24,077 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r5\run_004\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r5\run_004 --recycling_steps 5 --diffusion_samples 1 --seed 46 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-13 23:53:05,661 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 23:53:05,716 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 23:53:05,717 - INFO -   input_model_0.cif: RMSD = 4.695 A
+2025-12-13 23:53:05,718 - INFO -   -> Mejor: 4.695 A
+2025-12-13 23:53:05,719 - INFO - 
+=== RUN 5/10 ===
+2025-12-13 23:53:05,719 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r5\run_005\input.yaml (pocket=Si)
+2025-12-13 23:53:05,720 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r5\run_005\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r5\run_005 --recycling_steps 5 --diffusion_samples 1 --seed 47 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-13 23:54:46,999 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 23:54:47,054 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 23:54:47,055 - INFO -   input_model_0.cif: RMSD = 6.544 A
+2025-12-13 23:54:47,056 - INFO -   -> Mejor: 6.544 A
+2025-12-13 23:54:47,056 - INFO - 
+=== RUN 6/10 ===
+2025-12-13 23:54:47,057 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r5\run_006\input.yaml (pocket=Si)
+2025-12-13 23:54:47,057 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r5\run_006\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r5\run_006 --recycling_steps 5 --diffusion_samples 1 --seed 48 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-13 23:56:29,385 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 23:56:29,440 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 23:56:29,441 - INFO -   input_model_0.cif: RMSD = 4.417 A
+2025-12-13 23:56:29,442 - INFO -   -> Mejor: 4.417 A
+2025-12-13 23:56:29,442 - INFO - 
+=== RUN 7/10 ===
+2025-12-13 23:56:29,443 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r5\run_007\input.yaml (pocket=Si)
+2025-12-13 23:56:29,443 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r5\run_007\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r5\run_007 --recycling_steps 5 --diffusion_samples 1 --seed 49 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-13 23:58:10,607 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 23:58:10,661 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 23:58:10,662 - INFO -   input_model_0.cif: RMSD = 6.679 A
+2025-12-13 23:58:10,663 - INFO -   -> Mejor: 6.679 A
+2025-12-13 23:58:10,663 - INFO - 
+=== RUN 8/10 ===
+2025-12-13 23:58:10,664 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r5\run_008\input.yaml (pocket=Si)
+2025-12-13 23:58:10,665 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r5\run_008\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r5\run_008 --recycling_steps 5 --diffusion_samples 1 --seed 50 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-13 23:59:52,062 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-13 23:59:52,116 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-13 23:59:52,117 - INFO -   input_model_0.cif: RMSD = 7.466 A
+2025-12-13 23:59:52,118 - INFO -   -> Mejor: 7.466 A
+2025-12-13 23:59:52,118 - INFO - 
+=== RUN 9/10 ===
+2025-12-13 23:59:52,119 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r5\run_009\input.yaml (pocket=Si)
+2025-12-13 23:59:52,120 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r5\run_009\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r5\run_009 --recycling_steps 5 --diffusion_samples 1 --seed 51 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 00:01:33,361 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 00:01:33,414 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 00:01:33,415 - INFO -   input_model_0.cif: RMSD = 6.795 A
+2025-12-14 00:01:33,416 - INFO -   -> Mejor: 6.795 A
+2025-12-14 00:01:33,417 - INFO - 
+=== RUN 10/10 ===
+2025-12-14 00:01:33,417 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r5\run_010\input.yaml (pocket=Si)
+2025-12-14 00:01:33,418 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r5\run_010\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r5\run_010 --recycling_steps 5 --diffusion_samples 1 --seed 52 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 00:03:15,415 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 00:03:15,470 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 00:03:15,471 - INFO -   input_model_0.cif: RMSD = 5.145 A
+2025-12-14 00:03:15,471 - INFO -   -> Mejor: 5.145 A
+2025-12-14 00:19:02,941 - INFO - Modo GPU: Secuencia truncada (261 res), diffusion_samples=1
+2025-12-14 00:19:02,944 - INFO - Referencia: 28 atomos (ligand_ref_801.pdb)
+2025-12-14 00:19:02,944 - INFO - Modo: GPU
+2025-12-14 00:19:02,944 - INFO - Proteina: 259 residuos
+2025-12-14 00:19:02,945 - INFO - Pocket: 9 residuos del sitio activo
+2025-12-14 00:19:02,945 - INFO - Ligando: A1IDX (SMILES)
+2025-12-14 00:19:02,945 - INFO - 
+=== RUN 1/10 ===
+2025-12-14 00:19:02,946 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_001\input.yaml (pocket=No)
+2025-12-14 00:19:02,946 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_001\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_001 --recycling_steps 3 --diffusion_samples 1 --seed 43 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 00:20:34,955 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 00:20:35,047 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 00:20:35,048 - INFO -   input_model_0.cif: RMSD = 4.471 A
+2025-12-14 00:20:35,049 - INFO -   -> Mejor: 4.471 A
+2025-12-14 00:20:35,049 - INFO - 
+=== RUN 2/10 ===
+2025-12-14 00:20:35,050 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_002\input.yaml (pocket=No)
+2025-12-14 00:20:35,050 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_002\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_002 --recycling_steps 3 --diffusion_samples 1 --seed 44 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 00:22:09,246 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 00:22:09,301 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 00:22:09,302 - INFO -   input_model_0.cif: RMSD = 4.210 A
+2025-12-14 00:22:09,303 - INFO -   -> Mejor: 4.210 A
+2025-12-14 00:22:09,303 - INFO - 
+=== RUN 3/10 ===
+2025-12-14 00:22:09,304 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_003\input.yaml (pocket=No)
+2025-12-14 00:22:09,305 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_003\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_003 --recycling_steps 3 --diffusion_samples 1 --seed 45 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 00:23:42,682 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 00:23:42,738 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 00:23:42,739 - INFO -   input_model_0.cif: RMSD = 4.776 A
+2025-12-14 00:23:42,740 - INFO -   -> Mejor: 4.776 A
+2025-12-14 00:23:42,740 - INFO - 
+=== RUN 4/10 ===
+2025-12-14 00:23:42,741 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_004\input.yaml (pocket=No)
+2025-12-14 00:23:42,741 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_004\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_004 --recycling_steps 3 --diffusion_samples 1 --seed 46 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 00:25:16,518 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 00:25:16,572 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 00:25:16,572 - INFO -   input_model_0.cif: RMSD = 5.379 A
+2025-12-14 00:25:16,573 - INFO -   -> Mejor: 5.379 A
+2025-12-14 00:25:16,574 - INFO - 
+=== RUN 5/10 ===
+2025-12-14 00:25:16,574 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_005\input.yaml (pocket=No)
+2025-12-14 00:25:16,575 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_005\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_005 --recycling_steps 3 --diffusion_samples 1 --seed 47 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 00:26:50,012 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 00:26:50,066 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 00:26:50,067 - INFO -   input_model_0.cif: RMSD = 4.199 A
+2025-12-14 00:26:50,068 - INFO -   -> Mejor: 4.199 A
+2025-12-14 00:26:50,068 - INFO - 
+=== RUN 6/10 ===
+2025-12-14 00:26:50,069 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_006\input.yaml (pocket=No)
+2025-12-14 00:26:50,070 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_006\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_006 --recycling_steps 3 --diffusion_samples 1 --seed 48 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 00:28:25,588 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 00:28:25,643 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 00:28:25,644 - INFO -   input_model_0.cif: RMSD = 7.803 A
+2025-12-14 00:28:25,645 - INFO -   -> Mejor: 7.803 A
+2025-12-14 00:28:25,645 - INFO - 
+=== RUN 7/10 ===
+2025-12-14 00:28:25,646 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_007\input.yaml (pocket=No)
+2025-12-14 00:28:25,647 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_007\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_007 --recycling_steps 3 --diffusion_samples 1 --seed 49 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 00:30:16,569 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 00:30:16,625 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 00:30:16,626 - INFO -   input_model_0.cif: RMSD = 6.169 A
+2025-12-14 00:30:16,627 - INFO -   -> Mejor: 6.169 A
+2025-12-14 00:30:16,627 - INFO - 
+=== RUN 8/10 ===
+2025-12-14 00:30:16,628 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_008\input.yaml (pocket=No)
+2025-12-14 00:30:16,628 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_008\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_008 --recycling_steps 3 --diffusion_samples 1 --seed 50 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 00:32:01,742 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 00:32:01,798 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 00:32:01,799 - INFO -   input_model_0.cif: RMSD = 4.040 A
+2025-12-14 00:32:01,800 - INFO -   -> Mejor: 4.040 A
+2025-12-14 00:32:01,800 - INFO - 
+=== RUN 9/10 ===
+2025-12-14 00:32:01,801 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_009\input.yaml (pocket=No)
+2025-12-14 00:32:01,801 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_009\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_009 --recycling_steps 3 --diffusion_samples 1 --seed 51 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 00:33:36,407 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 00:33:36,462 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 00:33:36,463 - INFO -   input_model_0.cif: RMSD = 4.015 A
+2025-12-14 00:33:36,463 - INFO -   -> Mejor: 4.015 A
+2025-12-14 00:33:36,464 - INFO - 
+=== RUN 10/10 ===
+2025-12-14 00:33:36,464 - INFO - YAML creado: G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_010\input.yaml (pocket=No)
+2025-12-14 00:33:36,465 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_010\input.yaml --out_dir G:\Boltz_benchmark\boltz_outputs_r3_nopocket\run_010 --recycling_steps 3 --diffusion_samples 1 --seed 52 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 00:35:18,353 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 00:35:18,408 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 00:35:18,409 - INFO -   input_model_0.cif: RMSD = 7.357 A
+2025-12-14 00:35:18,410 - INFO -   -> Mejor: 7.357 A
+2025-12-14 19:06:55,721 - INFO - Modo GPU: Secuencia truncada (261 res), diffusion_samples=1
+2025-12-14 19:06:55,724 - WARNING - Referencia no encontrada: G:\Boltz_benchmark/ligand_ref_801.pdb
+2025-12-14 19:06:55,725 - INFO - Modo: GPU
+2025-12-14 19:06:55,725 - INFO - Proteina: 259 residuos
+2025-12-14 19:06:55,725 - INFO - Pocket: 9 residuos del sitio activo
+2025-12-14 19:06:55,725 - INFO - Ligando: A1IDX (SMILES)
+2025-12-14 19:06:55,725 - INFO - 
+=== RUN 1/2 ===
+2025-12-14 19:06:55,729 - INFO - YAML creado: G:\Boltz_benchmark/boltz_outputs_r3/run_001/input.yaml (pocket=Si)
+2025-12-14 19:06:55,729 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark/boltz_outputs_r3/run_001/input.yaml --out_dir G:\Boltz_benchmark/boltz_outputs_r3/run_001 --recycling_steps 3 --diffusion_samples 1 --seed 43 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 19:14:17,901 - INFO - 
+=== RUN 2/2 ===
+2025-12-14 19:14:17,911 - INFO - YAML creado: G:\Boltz_benchmark/boltz_outputs_r3/run_002/input.yaml (pocket=Si)
+2025-12-14 19:14:17,911 - INFO - Ejecutando: boltz predict G:\Boltz_benchmark/boltz_outputs_r3/run_002/input.yaml --out_dir G:\Boltz_benchmark/boltz_outputs_r3/run_002 --recycling_steps 3 --diffusion_samples 1 --seed 44 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 19:24:06,882 - INFO - Modo GPU: Secuencia truncada (261 res), diffusion_samples=1
+2025-12-14 19:24:06,895 - INFO - Referencia: 28 atomos (ligand_ref_801.pdb)
+2025-12-14 19:24:06,895 - INFO - Modo: GPU
+2025-12-14 19:24:06,895 - INFO - Proteina: 259 residuos
+2025-12-14 19:24:06,896 - INFO - Pocket: 9 residuos del sitio activo
+2025-12-14 19:24:06,896 - INFO - Ligando: A1IDX (SMILES)
+2025-12-14 19:24:06,896 - INFO - 
+=== RUN 1/2 ===
+2025-12-14 19:24:06,906 - INFO - YAML creado: /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_001/input.yaml (pocket=Si)
+2025-12-14 19:24:06,906 - INFO - Ejecutando: boltz predict /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_001/input.yaml --out_dir /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_001 --recycling_steps 3 --diffusion_samples 1 --seed 43 --accelerator gpu --use_msa_server --no_kernels --override --devices 2
+2025-12-14 19:26:52,915 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 19:26:52,982 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 19:26:53,037 - INFO -   input_model_0.cif: RMSD = 6.764 A
+2025-12-14 19:26:53,078 - INFO -   -> Mejor: 6.764 A
+2025-12-14 19:26:53,078 - INFO - 
+=== RUN 2/2 ===
+2025-12-14 19:26:53,088 - INFO - YAML creado: /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_002/input.yaml (pocket=Si)
+2025-12-14 19:26:53,088 - INFO - Ejecutando: boltz predict /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_002/input.yaml --out_dir /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_002 --recycling_steps 3 --diffusion_samples 1 --seed 44 --accelerator gpu --use_msa_server --no_kernels --override --devices 2
+2025-12-14 19:29:14,838 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 19:29:14,885 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 19:29:14,889 - INFO -   input_model_0.cif: RMSD = 4.236 A
+2025-12-14 19:29:14,932 - INFO -   -> Mejor: 4.236 A
+2025-12-14 20:18:30,692 - INFO - Modo GPU: Secuencia truncada (261 res), diffusion_samples=1
+2025-12-14 20:18:30,697 - INFO - Referencia: 28 atomos (ligand_ref_801.pdb)
+2025-12-14 20:18:30,697 - INFO - Modo: GPU
+2025-12-14 20:18:30,697 - INFO - Proteina: 259 residuos
+2025-12-14 20:18:30,697 - INFO - Pocket: 9 residuos del sitio activo
+2025-12-14 20:18:30,698 - INFO - Ligando: A1IDX (SMILES)
+2025-12-14 20:18:30,698 - INFO - 
+=== RUN 1/5 ===
+2025-12-14 20:18:30,702 - INFO - YAML creado: /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_001/input.yaml (pocket=Si)
+2025-12-14 20:18:30,703 - INFO - Ejecutando: boltz predict /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_001/input.yaml --out_dir /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_001 --recycling_steps 3 --diffusion_samples 1 --seed 43 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 20:18:30,817 - INFO - Modo GPU: Secuencia truncada (261 res), diffusion_samples=1
+2025-12-14 20:18:30,822 - INFO - Referencia: 28 atomos (ligand_ref_801.pdb)
+2025-12-14 20:18:30,822 - INFO - Modo: GPU
+2025-12-14 20:18:30,822 - INFO - Proteina: 259 residuos
+2025-12-14 20:18:30,823 - INFO - Pocket: 9 residuos del sitio activo
+2025-12-14 20:18:30,823 - INFO - Ligando: A1IDX (SMILES)
+2025-12-14 20:18:30,823 - INFO - 
+=== RUN 1/5 ===
+2025-12-14 20:18:30,827 - INFO - YAML creado: /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_001/input.yaml (pocket=Si)
+2025-12-14 20:18:30,828 - INFO - Ejecutando: boltz predict /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_001/input.yaml --out_dir /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_001 --recycling_steps 3 --diffusion_samples 1 --seed 43 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 20:20:40,907 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 20:20:41,027 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 20:20:41,085 - INFO -   input_model_0.cif: RMSD = 6.774 A
+2025-12-14 20:20:41,128 - INFO -   -> Mejor: 6.774 A
+2025-12-14 20:20:41,128 - INFO - 
+=== RUN 2/5 ===
+2025-12-14 20:20:41,132 - INFO - YAML creado: /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_002/input.yaml (pocket=Si)
+2025-12-14 20:20:41,132 - INFO - Ejecutando: boltz predict /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_002/input.yaml --out_dir /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_002 --recycling_steps 3 --diffusion_samples 1 --seed 44 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 20:20:41,758 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 20:20:41,824 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 20:20:41,829 - INFO -   input_model_0.cif: RMSD = 6.774 A
+2025-12-14 20:20:41,879 - INFO -   -> Mejor: 6.774 A
+2025-12-14 20:20:41,879 - INFO - 
+=== RUN 2/5 ===
+2025-12-14 20:20:41,884 - INFO - YAML creado: /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_002/input.yaml (pocket=Si)
+2025-12-14 20:20:41,884 - INFO - Ejecutando: boltz predict /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_002/input.yaml --out_dir /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_002 --recycling_steps 3 --diffusion_samples 1 --seed 44 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 20:22:54,781 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 20:22:54,842 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 20:22:54,848 - INFO -   input_model_0.cif: RMSD = 4.271 A
+2025-12-14 20:22:54,902 - INFO -   -> Mejor: 4.271 A
+2025-12-14 20:22:54,903 - INFO - 
+=== RUN 3/5 ===
+2025-12-14 20:22:54,913 - INFO - YAML creado: /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_003/input.yaml (pocket=Si)
+2025-12-14 20:22:54,913 - INFO - Ejecutando: boltz predict /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_003/input.yaml --out_dir /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_003 --recycling_steps 3 --diffusion_samples 1 --seed 45 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 20:23:01,475 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 20:23:01,535 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 20:23:01,541 - INFO -   input_model_0.cif: RMSD = 4.271 A
+2025-12-14 20:23:01,594 - INFO -   -> Mejor: 4.271 A
+2025-12-14 20:23:01,594 - INFO - 
+=== RUN 3/5 ===
+2025-12-14 20:23:01,599 - INFO - YAML creado: /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_003/input.yaml (pocket=Si)
+2025-12-14 20:23:01,600 - INFO - Ejecutando: boltz predict /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_003/input.yaml --out_dir /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_003 --recycling_steps 3 --diffusion_samples 1 --seed 45 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 20:25:38,387 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 20:25:38,435 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 20:25:38,439 - INFO -   input_model_0.cif: RMSD = 3.989 A
+2025-12-14 20:25:38,480 - INFO -   -> Mejor: 3.989 A
+2025-12-14 20:25:38,480 - INFO - 
+=== RUN 4/5 ===
+2025-12-14 20:25:38,484 - INFO - YAML creado: /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_004/input.yaml (pocket=Si)
+2025-12-14 20:25:38,484 - INFO - Ejecutando: boltz predict /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_004/input.yaml --out_dir /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_004 --recycling_steps 3 --diffusion_samples 1 --seed 46 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 20:28:37,218 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 20:28:37,268 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 20:28:37,273 - INFO -   input_model_0.cif: RMSD = 5.850 A
+2025-12-14 20:28:37,313 - INFO -   -> Mejor: 5.850 A
+2025-12-14 20:28:37,313 - INFO - 
+=== RUN 5/5 ===
+2025-12-14 20:28:37,317 - INFO - YAML creado: /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_005/input.yaml (pocket=Si)
+2025-12-14 20:28:37,317 - INFO - Ejecutando: boltz predict /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_005/input.yaml --out_dir /mnt/g/Boltz_benchmark/boltz_outputs_r3/run_005 --recycling_steps 3 --diffusion_samples 1 --seed 47 --accelerator gpu --use_msa_server --no_kernels --override
+2025-12-14 20:31:27,841 - INFO -   Ref: 28 atomos, Pred: 29 atomos
+2025-12-14 20:31:27,890 - WARNING - RDKit RMSD falló (No sub-structure match found between the reference and probe mol), usando método simple
+2025-12-14 20:31:27,894 - INFO -   input_model_0.cif: RMSD = 7.255 A
+2025-12-14 20:31:27,937 - INFO -   -> Mejor: 7.255 A
