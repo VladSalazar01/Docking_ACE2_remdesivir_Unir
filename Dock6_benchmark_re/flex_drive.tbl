@@ -1,0 +1,3 @@
+# Flexibility drive table
+# Defines torsion angle sampling
+# Format: torsion_type angle_increment

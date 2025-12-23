@@ -1,0 +1,147 @@
+================================================================================
+ANÁLISIS COMPARATIVO: DOCK6 vs GNINA
+Benchmark de Re-docking - Estructura 9FMM
+================================================================================
+Fecha de análisis: 2025-12-23 15:06:45
+
+--------------------------------------------------------------------------------
+1. SISTEMA DE PRUEBA
+--------------------------------------------------------------------------------
+  Estructura PDB:        9FMM
+  Ligando:               A1IDX
+  Sitio de unión:        Fragment 1 (Cadena A, residuo 801)
+  Centro del sitio:      (16.48, 15.24, 25.54) Å
+  Tamaño del box:        20 × 20 × 20 Å
+  Átomos pesados ligando: 28
+
+--------------------------------------------------------------------------------
+2. CONFIGURACIÓN DE HARDWARE
+--------------------------------------------------------------------------------
+  CPU:                   AMD Ryzen Threadripper 3690x (24 cores / 48 threads)
+  RAM:                   128 GB DDR4
+  GPU:                   2x NVIDIA RTX 3060 (12 GB VRAM cada una)
+  Sistema Operativo:     Windows 10 x64 + WSL2 Ubuntu 22.04
+
+--------------------------------------------------------------------------------
+3. CONFIGURACIÓN DE PROGRAMAS
+--------------------------------------------------------------------------------
+
+  GNINA:
+    Versión:             1.3.1
+    Método de scoring:   CNN rescore
+    Exhaustiveness:      32
+    Num modes:           9
+    Threads CPU:         48
+    GPUs:                0,1 (Dual RTX 3060)
+    Formato receptor:    PDB
+    Átomos receptor:     11022 (completo)
+    Número de runs:      17
+
+  DOCK6:
+    Versión:             6.13
+    Método de scoring:   Continuous Score
+    Búsqueda conformac.: Flexible (anchor-and-grow)
+    Max orientaciones:   1000
+    Formato receptor:    MOL2
+    Átomos receptor:     1255 (recortado 15 Å)
+    Número de esferas:   59
+    Número de runs:      5
+    Paralelización:      Single-thread (secuencial)
+
+--------------------------------------------------------------------------------
+4. RESULTADOS DE RE-DOCKING
+--------------------------------------------------------------------------------
+
+  4.1 RMSD (Root Mean Square Deviation)
+
+  Métrica                   GNINA                DOCK6               
+  ------------------------- -------------------- --------------------
+  Número de runs            17                   5                   
+  RMSD promedio (Å)         1.497                0.473               
+  Desviación estándar (Å)   0.001                0.009               
+  RMSD mínimo (Å)           1.495                0.462               
+  RMSD máximo (Å)           1.499                0.485               
+  Rango (Å)                 0.004                0.023               
+
+  Mejora de DOCK6 vs GNINA: 68.4% en RMSD promedio
+
+  4.2 TIEMPO COMPUTACIONAL
+
+  Métrica                        GNINA                DOCK6               
+  ------------------------------ -------------------- --------------------
+  Tiempo por run                 ~27 seg (GPU)        22.7 min (CPU)      
+  Tiempo total benchmark         ~7.7 min             113.6 min           
+  Aceleración por hardware       GPU (2x RTX 3060)    CPU single-thread   
+
+  4.3 SCORES DE AFINIDAD
+
+  Métrica                        GNINA                DOCK6               
+  ------------------------------ -------------------- --------------------
+  Mejor afinidad                 -9.43 kcal/mol       -37.80 kcal/mol     
+  CNN pose score                 0.9706               N/A                 
+
+--------------------------------------------------------------------------------
+5. EVALUACIÓN SEGÚN CRITERIOS ESTÁNDAR
+--------------------------------------------------------------------------------
+
+  Criterios de interpretación de RMSD (literatura):
+    - RMSD < 2.0 Å:  Excelente reproducción de la pose experimental
+    - RMSD 2.0-3.0 Å: Buena predicción
+    - RMSD 3.0-5.0 Å: Aceptable, con desviaciones significativas
+    - RMSD > 5.0 Å:  Predicción pobre, pose incorrecta
+
+  Evaluación GNINA:  EXCELENTE (RMSD = 1.497 Å)
+  Evaluación DOCK6:  EXCELENTE (RMSD = 0.473 Å)
+
+--------------------------------------------------------------------------------
+6. DIFERENCIAS METODOLÓGICAS CLAVE
+--------------------------------------------------------------------------------
+
+  Aspecto                    GNINA                      DOCK6
+  ----------------------------------------------------------------------------
+  Algoritmo de búsqueda      Monte Carlo + Local Opt    Anchor-and-Grow
+  Función de scoring         CNN + Vina empírico        Continuous (VDW + ES)
+  Definición del sitio       Box (coordenadas XYZ)      Esferas (superficie)
+  Aceleración GPU            Sí (CUDA)                  No
+  Preparación receptor       PDB directo                MOL2 con cargas
+  Flexibilidad ligando       Torsiones predefinidas     Fragmentación dinámica
+
+--------------------------------------------------------------------------------
+7. CONSIDERACIONES PARA LA INTERPRETACIÓN
+--------------------------------------------------------------------------------
+
+  7.1 Ventajas de los resultados de DOCK6:
+      - RMSD significativamente menor (0.473 vs 1.497 Å)
+      - Alta reproducibilidad (desv. est. = 0.009 Å)
+      - No requiere GPU
+
+  7.2 Ventajas de GNINA:
+      - Tiempo de cálculo ~50x más rápido con GPU
+      - No requiere recorte del receptor
+      - Scoring basado en CNN puede generalizar mejor
+
+  7.3 Factores que pueden influir en la diferencia de RMSD:
+      - DOCK6 usó receptor recortado (1,255 átomos vs 11,022)
+      - Diferentes funciones de scoring
+      - Diferentes algoritmos de búsqueda conformacional
+      - Número de orientaciones/exhaustiveness diferentes
+
+--------------------------------------------------------------------------------
+8. CONCLUSIONES
+--------------------------------------------------------------------------------
+
+  1. Ambos programas logran reproducir la pose cristalográfica con
+     precisión excelente (RMSD < 2.0 Å), validando su utilidad para
+     re-docking en el sistema 9FMM/A1IDX.
+
+  2. DOCK6 demostró mayor precisión geométrica (RMSD 68% menor),
+     aunque a costa de mayor tiempo computacional.
+
+  3. GNINA ofrece un balance óptimo velocidad/precisión gracias a
+     la aceleración GPU y scoring CNN.
+
+  4. La elección entre programas dependerá del objetivo:
+     - Virtual screening de grandes bibliotecas: GNINA (velocidad)
+     - Refinamiento de poses específicas: DOCK6 (precisión)
+
+================================================================================

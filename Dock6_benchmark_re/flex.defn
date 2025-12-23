@@ -1,0 +1,3 @@
+# Flexibility definition file
+# This file defines rotatable bonds
+# Format: anchor_atom movable_atom torsion_type

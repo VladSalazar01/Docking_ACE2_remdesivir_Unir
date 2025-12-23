@@ -1,0 +1,232 @@
+
+
+
+--------------------------------------
+DOCK v6.13
+
+Released July 2025
+Copyright UCSF
+--------------------------------------
+
+
+Conformational Sampling Parameters
+------------------------------------------------------------------------------------------
+conformer_search_type                                        flex
+write_fragment_libraries                                     no
+
+Anchor & Grow Parameters
+------------------------------------------------------------------------------------------
+user_specified_anchor                                        no
+limit_max_anchors                                            no
+min_anchor_size                                              5
+pruning_use_clustering                                       yes
+pruning_max_orients                                          1000
+pruning_clustering_cutoff                                    100
+Warning:  No legal value found for parameter pruning_orient_score_cutoff.
+  The default value of "1000.0" will be used.
+pruning_conformer_score_cutoff                               100.0
+Warning:  No legal value found for parameter pruning_conformer_score_scaling_factor.
+  The default value of "1.0" will be used.
+use_clash_overlap                                            no
+write_growth_tree                                            no
+
+Internal Energy Parameters
+------------------------------------------------------------------------------------------
+use_internal_energy                                          yes
+internal_energy_rep_exp                                      12
+internal_energy_cutoff                                       100.0
+Note: Internal energy only includes repulsive VDW for growth and/or minimization.
+
+Molecule Library Input Parameters
+------------------------------------------------------------------------------------------
+ligand_atom_file                                             ligand.mol2
+limit_max_ligands                                            no
+skip_molecule                                                no
+read_mol_solvation                                           no
+calculate_rmsd                                               yes
+use_rmsd_reference_mol                                       yes
+rmsd_reference_filename                                      ligand.mol2
+
+Database Filter Parameters
+------------------------------------------------------------------------------------------
+use_database_filter                                          no
+
+Orient Ligand Parameters
+------------------------------------------------------------------------------------------
+orient_ligand                                                yes
+automated_matching                                           yes
+receptor_site_file                                           selected_spheres.sph
+max_orientations                                             1000
+critical_points                                              no
+chemical_matching                                            no
+use_ligand_spheres                                           no
+
+Bump Filter Parameters
+------------------------------------------------------------------------------------------
+bump_filter                                                  no
+
+Master Score Parameters
+------------------------------------------------------------------------------------------
+score_molecules                                              yes
+
+Contact Score Parameters
+------------------------------------------------------------------------------------------
+contact_score_primary                                        no
+
+Grid Score Parameters
+------------------------------------------------------------------------------------------
+grid_score_primary                                           no
+
+GIST Score Parameters
+------------------------------------------------------------------------------------------
+Warning:  No legal value found for parameter gist_score_primary.
+  The default value of "no" will be used.
+
+MultiGrid Score Parameters
+------------------------------------------------------------------------------------------
+multigrid_score_primary                                      no
+
+Dock3.5 Score Parameters
+------------------------------------------------------------------------------------------
+dock3.5_score_primary                                        no
+
+Continuous Energy Score Parameters
+------------------------------------------------------------------------------------------
+continuous_score_primary                                     yes
+cont_score_rec_filename                                      receptor_site.mol2
+cont_score_att_exp                                           6
+cont_score_rep_exp                                           12
+cont_score_rep_rad_scale                                     1
+cont_score_use_dist_dep_dielectric                           yes
+cont_score_dielectric                                        4.0
+cont_score_vdw_scale                                         1
+cont_score_es_scale                                          1
+
+Footprint Similarity Score Parameters
+------------------------------------------------------------------------------------------
+
+Pharmacophore Similarity Score Parameters
+------------------------------------------------------------------------------------------
+
+Hbond Energy Score Parameters
+------------------------------------------------------------------------------------------
+
+Internal Energy Score Parameters
+------------------------------------------------------------------------------------------
+
+Descriptor Score Parameters
+------------------------------------------------------------------------------------------
+
+Zou GB/SA Score Parameters
+------------------------------------------------------------------------------------------
+
+Hawkins GB/SA Score Parameters
+------------------------------------------------------------------------------------------
+
+SASA Score Parameters
+------------------------------------------------------------------------------------------
+
+Amber Score Parameters
+------------------------------------------------------------------------------------------
+
+Simplex Minimization Parameters
+------------------------------------------------------------------------------------------
+minimize_ligand                                              yes
+Warning:  No legal value found for parameter minimize_anchor.
+  The default value of "yes" will be used.
+Warning:  No legal value found for parameter minimize_flexible_growth.
+  The default value of "yes" will be used.
+Warning:  No legal value found for parameter use_advanced_simplex_parameters.
+  The default value of "no" will be used.
+Warning:  No legal value found for parameter minimize_flexible_growth_ramp.
+  The default value of "yes" will be used.
+simplex_max_cycles                                           1
+simplex_score_converge                                       0.1
+Warning:  No legal value found for parameter simplex_initial_score_coverge.
+  The default value of "5" will be used.
+simplex_cycle_converge                                       1.0
+simplex_trans_step                                           1.0
+simplex_rot_step                                             0.1
+simplex_tors_step                                            10.0
+Warning:  No legal value found for parameter simplex_anchor_max_iterations.
+  The default value of "500" will be used.
+Warning:  No legal value found for parameter simplex_grow_max_iterations.
+  The default value of "250" will be used.
+Warning:  No legal value found for parameter simplex_grow_tors_premin_iterations.
+  The default value of "0" will be used.
+Warning:  No legal value found for parameter simplex_final_min.
+  The default value of "no" will be used.
+simplex_random_seed                                          10
+simplex_restraint_min                                        no
+
+Atom Typing Parameters
+------------------------------------------------------------------------------------------
+atom_model                                                   all
+vdw_defn_file                                                vdw_AMBER_parm99.defn
+flex_defn_file                                               flex.defn
+flex_drive_file                                              flex_drive.tbl
+
+Molecule Library Output Parameters
+------------------------------------------------------------------------------------------
+ligand_outfile_prefix                                        output_run1
+Warning:  No legal value found for parameter write_mol_solvation.
+  The default value of "no" will be used.
+write_orientations                                           no
+Warning:  No legal value found for parameter num_final_scored_poses.
+  The default value of "1" will be used.
+Warning:  No legal value found for parameter num_preclustered_conformers.
+  The default value of "1" will be used.
+Warning:  No legal value found for parameter score_threshold.
+  The default value of "100.0" will be used.
+rank_ligands                                                 no
+------------------------------------------------------------------------------------------
+
+Warning: parameter SASA_score_secondary has not been used.
+
+Warning: parameter amber_score_secondary has not been used.
+
+Warning: parameter contact_score_secondary has not been used.
+
+Warning: parameter continuous_score_secondary has not been used.
+
+Warning: parameter dock3.5_score_secondary has not been used.
+
+Warning: parameter gbsa_hawkins_score_secondary has not been used.
+
+Warning: parameter gbsa_zou_score_secondary has not been used.
+
+Warning: parameter grid_score_secondary has not been used.
+
+Warning: parameter multigrid_score_secondary has not been used.
+
+Warning: parameter num_scored_conformers has not been used.
+
+Warning: parameter simplex_max_iterations has not been used.
+
+Warning: parameter simplex_tors_premin_iterations has not been used.
+
+Initializing Conformer Generator Routines...
+Initializing Library File Routines...
+
+Initializing Orienting Routines...
+
+-----------------------------------
+Molecule: ligand_ref.pdb
+
+ Elapsed time for docking:	1286.281 seconds
+
+ Anchors:		1
+ Orientations:		1000
+ Conformations:		105
+
+                    Continuous_Score:          -37.814556
+               Continuous_vdw_energy:          -38.113022
+                Continuous_es_energy:            0.298467
+           Internal_energy_repulsive:            0.000000
+
+
+1 Molecules Processed
+Total elapsed time:	1286.470 seconds
+Number of molecules per second:	0.001
+Virtual memory used for this process: 186400 kilobytes
+Physical memory used for this process: 127680 kilobytes
