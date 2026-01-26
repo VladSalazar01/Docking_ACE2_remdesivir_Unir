@@ -1,0 +1,13 @@
+METRICAS DE VALIDACION RETROSPECTIVA
+==================================================
+
+Activos: 44
+Decoys: 1000
+Total: 1044
+
+AUC-ROC: 0.6414
+EF 1%: 6.82
+EF 5%: 3.64
+BEDROC (alpha=80.5): 0.1908
+
+Evaluacion: SUBOPTIMO
