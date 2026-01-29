@@ -1,0 +1,49 @@
+Comando: docker run --rm --gpus all -v G:\Cribado_VC_ACE_2\validacion_ACE2_01:/data gnina/gnina gnina --receptor /data/9FMM_receptor.pdbqt --ligand /data/resultados_validacion_ace2/ligandos_pdbqt/decoy_0016.pdbqt --out /data/resultados_validacion_ace2/salidas_docking/decoy_0016_out.sdf --center_x 42.0 --center_y 7.0 --center_z 23.0 --size_x 26 --size_y 26 --size_z 26 --exhaustiveness 64 --num_modes 1 --cnn_scoring rescore
+Código retorno: 0
+Tiempo: 8.9 s
+
+=== STDOUT ===
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.3.2
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.1 master:5bd63bd   Built May 23 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+Commandline: gnina --receptor /data/9FMM_receptor.pdbqt --ligand /data/resultados_validacion_ace2/ligandos_pdbqt/decoy_0016.pdbqt --out /data/resultados_validacion_ace2/salidas_docking/decoy_0016_out.sdf --center_x 42.0 --center_y 7.0 --center_z 23.0 --size_x 26 --size_y 26 --size_z 26 --exhaustiveness 64 --num_modes 1 --cnn_scoring rescore
+Using random seed: 1769476257
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+ | pose 0 | initial pose not within box
+
+mode |  affinity  |  intramol  |    CNN     |   CNN
+     | (kcal/mol) | (kcal/mol) | pose score | affinity
+-----+------------+------------+------------+----------
+    1       -3.78        0.00       0.6450      3.391
+
+
+=== STDERR ===
+
