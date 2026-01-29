@@ -1,0 +1,27 @@
+============================================================
+DATASET DE VALIDACIÓN ACE2
+============================================================
+
+Activos: 19
+Decoys:  37
+Ratio:   1:1
+
+----------------------------------------
+CRITERIOS DE SELECCIÓN DE DECOYS:
+----------------------------------------
+MW tolerance:     ±25%
+LogP tolerance:   ±1.5
+HBD tolerance:    ±2
+HBA tolerance:    ±3
+Tanimoto cutoff:  <0.35
+
+----------------------------------------
+DISTRIBUCIÓN POR FAMILIA:
+----------------------------------------
+  antiinflamatorios: 9
+  nucleosidos: 7
+  sulfonamidas: 6
+  antihistaminicos: 5
+  benzodiazepinas: 4
+  terpenos: 3
+  heterociclos: 3
