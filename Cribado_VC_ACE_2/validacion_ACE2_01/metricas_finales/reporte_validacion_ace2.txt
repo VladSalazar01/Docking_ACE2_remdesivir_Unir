@@ -1,0 +1,51 @@
+======================================================================
+REPORTE DE VALIDACIÓN RETROSPECTIVA - ACE2
+======================================================================
+
+Fecha generación: 2026-01-26 21:05
+Receptor: PDB 9FMM (ACE2 humana)
+Programa: Gnina (CNN scoring)
+
+----------------------------------------------------------------------
+COMPOSICIÓN DEL DATASET
+----------------------------------------------------------------------
+Total compuestos evaluados: 56
+Activos: 19
+Decoys:  37
+Ratio (decoys:activos): 1.9:1
+
+----------------------------------------------------------------------
+MÉTRICAS DE VALIDACIÓN
+----------------------------------------------------------------------
+
+Métrica              Valor        Umbral       Estado      
+--------------------------------------------------------
+AUC-ROC (CNN score)  0.183       
+AUC-ROC (CNN aff.)   0.748       
+Métrica usada:       cnn_affinity
+--------------------------------------------------------
+AUC-ROC (final)      0.748        ≥0.70        ✓ CUMPLE    
+EF 1%                5.26         ≥10          ✗ NO CUMPLE 
+EF 5%                2.11         ≥5           ✗ NO CUMPLE 
+EF 10%               2.11         ≥3           ✗ NO CUMPLE 
+BEDROC (α=20)        0.029        ≥0.30        ✗ NO CUMPLE 
+
+----------------------------------------------------------------------
+EVALUACIÓN GLOBAL
+----------------------------------------------------------------------
+
+Criterios cumplidos: 1/5
+
+CONCLUSIÓN: Protocolo SUBÓPTIMO - Requiere optimización
+Considerar ajustar parámetros de docking o grid box.
+Validar con dataset alternativo antes de cribado productivo.
+
+======================================================================
+NOTAS METODOLÓGICAS
+======================================================================
+
+- AUC-ROC: Área bajo curva ROC, capacidad discriminatoria global
+- EF (Enrichment Factor): Enriquecimiento vs azar en top X%
+- BEDROC: Énfasis en enriquecimiento temprano (α=20 ≈ top 8%)
+- Decoys generados con matching de propiedades fisicoquímicas
+- Scores CNN de Gnina usados para ranking
