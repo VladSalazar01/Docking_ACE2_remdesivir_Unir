@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "script": "benchmark_vina_dual_site.py",
+    "fecha": "2026-02-25T02:22:47.556655",
+    "tipo": "corrección retrospectiva dual-site",
+    "programa": "AutoDock Vina",
+    "exhaustiveness": 64,
+    "num_modes": 9,
+    "cpu_threads": 48,
+    "box_size": 20,
+    "n_runs_por_sitio": 5,
+    "centro_incorrecto_original": {
+      "center_x": 12.47,
+      "center_y": 15.461,
+      "center_z": 49.907,
+      "nota": "Punto MID entre fragmentos - NO corresponde a sitio de unión real"
+    }
+  },
+  "sitios": {
+    "Fragment_1": {
+      "config": {
+        "center_x": 16.48,
+        "center_y": 15.24,
+        "center_z": 25.54
+      },
+      "resultados": [
+        {
+          "run": 1,
+          "rmsd": 5.18580858288646,
+          "afinidad": -8.935,
+          "tiempo": 43.12939786911011,
+          "exito": "True"
+        },
+        {
+          "run": 2,
+          "rmsd": 5.429465973736929,
+          "afinidad": -8.964,
+          "tiempo": 37.862388372421265,
+          "exito": "True"
+        },
+        {
+          "run": 3,
+          "rmsd": 5.228289761263168,
+          "afinidad": -8.933,
+          "tiempo": 42.32882285118103,
+          "exito": "True"
+        },
+        {
+          "run": 4,
+          "rmsd": 5.2098803191120995,
+          "afinidad": -8.968,
+          "tiempo": 35.07847452163696,
+          "exito": "True"
+        },
+        {
+          "run": 5,
+          "rmsd": 5.403692635274625,
+          "afinidad": -8.916,
+          "tiempo": 33.99123549461365,
+          "exito": "True"
+        }
+      ],
+      "estadisticas": {
+        "nombre": "Fragment_1",
+        "n_total": 5,
+        "n_exitosos": 5,
+        "rmsd_promedio": 5.291427454454656,
+        "rmsd_std": 0.10339221754623663,
+        "rmsd_min": 5.18580858288646,
+        "rmsd_max": 5.429465973736929,
+        "rmsd_mediana": 5.228289761263168,
+        "success_2A": 0,
+        "success_3A": 0,
+        "tiempo_promedio": 38.4780638217926,
+        "tiempo_total": 192.390319108963,
+        "afinidad_promedio": -8.9432,
+        "afinidad_std": 0.019792928029980766
+      }
+    },
+    "Fragment_2": {
+      "config": {
+        "center_x": 8.44,
+        "center_y": 15.48,
+        "center_z": 74.27
+      },
+      "resultados": [
+        {
+          "run": 1,
+          "rmsd": 6.250287905302082,
+          "afinidad": -7.663,
+          "tiempo": 36.10527038574219,
+          "exito": "True"
+        },
+        {
+          "run": 2,
+          "rmsd": 5.8480256366433565,
+          "afinidad": -7.616,
+          "tiempo": 38.3657865524292,
+          "exito": "True"
+        },
+        {
+          "run": 3,
+          "rmsd": 5.811545639127103,
+          "afinidad": -8.371,
+          "tiempo": 36.24712085723877,
+          "exito": "True"
+        },
+        {
+          "run": 4,
+          "rmsd": 5.966657326375277,
+          "afinidad": -8.149,
+          "tiempo": 35.0414023399353,
+          "exito": "True"
+        },
+        {
+          "run": 5,
+          "rmsd": 5.337853570028173,
+          "afinidad": -8.322,
+          "tiempo": 36.95691180229187,
+          "exito": "True"
+        }
+      ],
+      "estadisticas": {
+        "nombre": "Fragment_2",
+        "n_total": 5,
+        "n_exitosos": 5,
+        "rmsd_promedio": 5.842874015495198,
+        "rmsd_std": 0.2957573472852493,
+        "rmsd_min": 5.337853570028173,
+        "rmsd_max": 6.250287905302082,
+        "rmsd_mediana": 5.8480256366433565,
+        "success_2A": 0,
+        "success_3A": 0,
+        "tiempo_promedio": 36.543298387527464,
+        "tiempo_total": 182.71649193763733,
+        "afinidad_promedio": -8.024199999999999,
+        "afinidad_std": 0.32299312686185744
+      }
+    }
+  }
+}

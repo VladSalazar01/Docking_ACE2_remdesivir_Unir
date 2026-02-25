@@ -1,0 +1,18 @@
+# AutoDock Vina - Configuración Dual-Site
+# Sitio: Fragment_1 (Sitio principal - cadena C, A1IDX 801)
+# Generado automáticamente por benchmark_vina_dual_site.py
+
+receptor = /data/receptor.pdbqt
+ligand = /data/ligand_Fragment_1.pdbqt
+
+center_x = 16.480
+center_y = 15.240
+center_z = 25.540
+
+size_x = 20
+size_y = 20
+size_z = 20
+
+exhaustiveness = 64
+num_modes = 9
+cpu = 48

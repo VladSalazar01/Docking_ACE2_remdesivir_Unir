@@ -1,0 +1,253 @@
+[22:56:57] ======================================================================
+[22:56:57] 🧬 AUTODOCK VINA - BENCHMARK DUAL-SITE (CORRECCIÓN RETROSPECTIVA)
+[22:56:57] ======================================================================
+[22:56:57]   Target:         9FMM (ACE2 + F-MLN-4760)
+[22:56:57]   Programa:       AutoDock Vina (Docker: ghcr.io/metaphorme/vina:v1.2.5)
+[22:56:57]   Exhaustiveness: 64
+[22:56:57]   CPU threads:    48
+[22:56:57]   Box size:       20×20×20 Å
+[22:56:57]   Runs por sitio: 5
+[22:56:57]   Total runs:     10
+[22:56:57]   Fecha:          2026-02-24 22:56:57
+[22:56:57]   Resultados en:  G:\Autodock_vina_benchmark\resultados_dual_site_20260224_225657
+[22:56:57] 
+[22:56:57]   CORRECCIÓN: Centro de caja cambiado de punto MID a fragmentos
+[22:56:57]     MID (incorrecto):  (12.47, 15.461, 49.907)
+[22:56:57]     Fragment 1:        (16.48, 15.24, 25.54)
+[22:56:57]     Fragment 2:        (8.44, 15.48, 74.27)
+[22:56:57] ======================================================================
+[22:56:57] ======================================================================
+[22:56:57] [VERIFICACIÓN] Comprobando requisitos...
+[22:56:57] ======================================================================
+[22:56:57]   [OK] Open Babel: Open Babel 3.1.1 -- May 16 2020 -- 11:57:55
+[22:56:57]   [OK] Docker disponible
+[22:56:57]   [INFO] Receptor PDB encontrado, se convertirá a PDBQT
+[22:56:57]   [OK] Referencia Fragment_1: ligand_exp_Fragment_1.pdb (28 átomos)
+[22:56:57]   [OK] Referencia Fragment_2: ligand_exp_Fragment_2.pdb (28 átomos)
+[22:56:57] 
+[22:56:57] [VERIFICACIÓN] Todas las verificaciones pasaron.
+[22:56:57] 
+[22:56:57] [PREPARACIÓN] Preparando receptor...
+[22:56:57]   Convirtiendo 9FMM_protein.pdb → receptor.pdbqt...
+[22:56:58]   [OK] Receptor convertido
+[22:56:58] 
+[22:56:58] ======================================================================
+[22:56:58] 🎯 BENCHMARKING SITIO: Fragment_1
+[22:56:58]    Sitio principal - cadena C, A1IDX 801
+[22:56:58]    Centro: (16.48, 15.24, 25.54)
+[22:56:58]    Caja: 20×20×20 Å
+[22:56:58] ======================================================================
+[22:56:58]   Convirtiendo ligand_exp_Fragment_1.pdb → ligand_Fragment_1.pdbqt...
+[22:56:58]   [OK] Ligando Fragment_1 convertido
+[22:56:58] 
+[22:56:58] [Fragment_1] Run 1/5
+[22:56:58] --------------------------------------------------
+[22:56:58]   Hora inicio: 22:56:58
+[22:56:58]   [1/3] Ejecutando Vina docking...
+[22:56:59]   [ERROR] Vina falló (código 1)
+[22:56:59]   stderr: Command line parse error: unrecognised option '--log'
+
+Correct usage:
+
+Input:
+  --receptor arg             rigid part of the receptor (PDBQT)
+  --flex arg                 flexible side chains, if any 
+[22:56:59]   Hora fin: 22:56:59
+[22:56:59]   Tiempo run: 0m 0s (0.8s)
+[22:56:59]   [ERROR] Run fallido
+[22:56:59] 
+[22:56:59] [Fragment_1] Run 2/5
+[22:56:59] --------------------------------------------------
+[22:56:59]   Hora inicio: 22:56:59
+[22:56:59]   [1/3] Ejecutando Vina docking...
+[22:57:00]   [ERROR] Vina falló (código 1)
+[22:57:00]   stderr: Command line parse error: unrecognised option '--log'
+
+Correct usage:
+
+Input:
+  --receptor arg             rigid part of the receptor (PDBQT)
+  --flex arg                 flexible side chains, if any 
+[22:57:00]   Hora fin: 22:57:00
+[22:57:00]   Tiempo run: 0m 0s (0.8s)
+[22:57:00]   [ERROR] Run fallido
+[22:57:00] 
+[22:57:00] [Fragment_1] Run 3/5
+[22:57:00] --------------------------------------------------
+[22:57:00]   Hora inicio: 22:57:00
+[22:57:00]   [1/3] Ejecutando Vina docking...
+[22:57:01]   [ERROR] Vina falló (código 1)
+[22:57:01]   stderr: Command line parse error: unrecognised option '--log'
+
+Correct usage:
+
+Input:
+  --receptor arg             rigid part of the receptor (PDBQT)
+  --flex arg                 flexible side chains, if any 
+[22:57:01]   Hora fin: 22:57:01
+[22:57:01]   Tiempo run: 0m 0s (0.8s)
+[22:57:01]   [ERROR] Run fallido
+[22:57:01] 
+[22:57:01] [Fragment_1] Run 4/5
+[22:57:01] --------------------------------------------------
+[22:57:01]   Hora inicio: 22:57:01
+[22:57:01]   [1/3] Ejecutando Vina docking...
+[22:57:01]   [ERROR] Vina falló (código 1)
+[22:57:01]   stderr: Command line parse error: unrecognised option '--log'
+
+Correct usage:
+
+Input:
+  --receptor arg             rigid part of the receptor (PDBQT)
+  --flex arg                 flexible side chains, if any 
+[22:57:01]   Hora fin: 22:57:01
+[22:57:01]   Tiempo run: 0m 0s (0.8s)
+[22:57:01]   [ERROR] Run fallido
+[22:57:01] 
+[22:57:01] [Fragment_1] Run 5/5
+[22:57:01] --------------------------------------------------
+[22:57:01]   Hora inicio: 22:57:01
+[22:57:01]   [1/3] Ejecutando Vina docking...
+[22:57:02]   [ERROR] Vina falló (código 1)
+[22:57:02]   stderr: Command line parse error: unrecognised option '--log'
+
+Correct usage:
+
+Input:
+  --receptor arg             rigid part of the receptor (PDBQT)
+  --flex arg                 flexible side chains, if any 
+[22:57:02]   Hora fin: 22:57:02
+[22:57:02]   Tiempo run: 0m 0s (0.8s)
+[22:57:02]   [ERROR] Run fallido
+[22:57:02] 
+[22:57:02] RESULTADOS POR RUN - Fragment_1:
+[22:57:02] ----------------------------------------------------------------------
+[22:57:02] Run   Tiempo(s)   RMSD(Å)     Afinidad(kcal/mol)    Estado
+[22:57:02] ----------------------------------------------------------------------
+[22:57:02] 1     0.8         FALLO       N/A                   ❌
+[22:57:02] 2     0.8         FALLO       N/A                   ❌
+[22:57:02] 3     0.8         FALLO       N/A                   ❌
+[22:57:02] 4     0.8         FALLO       N/A                   ❌
+[22:57:02] 5     0.8         FALLO       N/A                   ❌
+[22:57:02] ----------------------------------------------------------------------
+[22:57:02] 
+[22:57:02] 📊 ESTADÍSTICAS Fragment_1 (n=0/5):
+[22:57:02] --------------------------------------------------
+[22:57:02]   ⚠️ Sin runs exitosos para Fragment_1
+[22:57:02] 
+[22:57:02] ======================================================================
+[22:57:02] 🎯 BENCHMARKING SITIO: Fragment_2
+[22:57:02]    Sitio secundario - cadena P, A1IDX 802
+[22:57:02]    Centro: (8.44, 15.48, 74.27)
+[22:57:02]    Caja: 20×20×20 Å
+[22:57:02] ======================================================================
+[22:57:02]   Convirtiendo ligand_exp_Fragment_2.pdb → ligand_Fragment_2.pdbqt...
+[22:57:02]   [OK] Ligando Fragment_2 convertido
+[22:57:02] 
+[22:57:02] [Fragment_2] Run 1/5
+[22:57:02] --------------------------------------------------
+[22:57:02]   Hora inicio: 22:57:02
+[22:57:02]   [1/3] Ejecutando Vina docking...
+[22:57:03]   [ERROR] Vina falló (código 1)
+[22:57:03]   stderr: Command line parse error: unrecognised option '--log'
+
+Correct usage:
+
+Input:
+  --receptor arg             rigid part of the receptor (PDBQT)
+  --flex arg                 flexible side chains, if any 
+[22:57:03]   Hora fin: 22:57:03
+[22:57:03]   Tiempo run: 0m 0s (0.8s)
+[22:57:03]   [ERROR] Run fallido
+[22:57:03] 
+[22:57:03] [Fragment_2] Run 2/5
+[22:57:03] --------------------------------------------------
+[22:57:03]   Hora inicio: 22:57:03
+[22:57:03]   [1/3] Ejecutando Vina docking...
+[22:57:04]   [ERROR] Vina falló (código 1)
+[22:57:04]   stderr: Command line parse error: unrecognised option '--log'
+
+Correct usage:
+
+Input:
+  --receptor arg             rigid part of the receptor (PDBQT)
+  --flex arg                 flexible side chains, if any 
+[22:57:04]   Hora fin: 22:57:04
+[22:57:04]   Tiempo run: 0m 0s (0.8s)
+[22:57:04]   [ERROR] Run fallido
+[22:57:04] 
+[22:57:04] [Fragment_2] Run 3/5
+[22:57:04] --------------------------------------------------
+[22:57:04]   Hora inicio: 22:57:04
+[22:57:04]   [1/3] Ejecutando Vina docking...
+[22:57:05]   [ERROR] Vina falló (código 1)
+[22:57:05]   stderr: Command line parse error: unrecognised option '--log'
+
+Correct usage:
+
+Input:
+  --receptor arg             rigid part of the receptor (PDBQT)
+  --flex arg                 flexible side chains, if any 
+[22:57:05]   Hora fin: 22:57:05
+[22:57:05]   Tiempo run: 0m 0s (0.7s)
+[22:57:05]   [ERROR] Run fallido
+[22:57:05] 
+[22:57:05] [Fragment_2] Run 4/5
+[22:57:05] --------------------------------------------------
+[22:57:05]   Hora inicio: 22:57:05
+[22:57:05]   [1/3] Ejecutando Vina docking...
+[22:57:05]   [ERROR] Vina falló (código 1)
+[22:57:05]   stderr: Command line parse error: unrecognised option '--log'
+
+Correct usage:
+
+Input:
+  --receptor arg             rigid part of the receptor (PDBQT)
+  --flex arg                 flexible side chains, if any 
+[22:57:05]   Hora fin: 22:57:05
+[22:57:05]   Tiempo run: 0m 0s (0.8s)
+[22:57:05]   [ERROR] Run fallido
+[22:57:05] 
+[22:57:05] [Fragment_2] Run 5/5
+[22:57:05] --------------------------------------------------
+[22:57:05]   Hora inicio: 22:57:05
+[22:57:05]   [1/3] Ejecutando Vina docking...
+[22:57:06]   [ERROR] Vina falló (código 1)
+[22:57:06]   stderr: Command line parse error: unrecognised option '--log'
+
+Correct usage:
+
+Input:
+  --receptor arg             rigid part of the receptor (PDBQT)
+  --flex arg                 flexible side chains, if any 
+[22:57:06]   Hora fin: 22:57:06
+[22:57:06]   Tiempo run: 0m 0s (0.8s)
+[22:57:06]   [ERROR] Run fallido
+[22:57:06] 
+[22:57:06] RESULTADOS POR RUN - Fragment_2:
+[22:57:06] ----------------------------------------------------------------------
+[22:57:06] Run   Tiempo(s)   RMSD(Å)     Afinidad(kcal/mol)    Estado
+[22:57:06] ----------------------------------------------------------------------
+[22:57:06] 1     0.8         FALLO       N/A                   ❌
+[22:57:06] 2     0.8         FALLO       N/A                   ❌
+[22:57:06] 3     0.7         FALLO       N/A                   ❌
+[22:57:06] 4     0.8         FALLO       N/A                   ❌
+[22:57:06] 5     0.8         FALLO       N/A                   ❌
+[22:57:06] ----------------------------------------------------------------------
+[22:57:06] 
+[22:57:06] 📊 ESTADÍSTICAS Fragment_2 (n=0/5):
+[22:57:06] --------------------------------------------------
+[22:57:06]   ⚠️ Sin runs exitosos para Fragment_2
+[22:57:06] 
+[22:57:06] ======================================================================
+[22:57:06] 📊 COMPARACIÓN DUAL-SITE
+[22:57:06] ======================================================================
+[22:57:06]   ⚠️ Sin resultados válidos para comparar
+[22:57:06] 
+[22:57:06] ⏱️  TIEMPO TOTAL BENCHMARK: 0m 7s (7.9s)
+[22:57:06] 
+📁 Resultados guardados en:
+[22:57:06]    Log:  G:\Autodock_vina_benchmark\resultados_dual_site_20260224_225657\benchmark_dual_site.log
+[22:57:06]    JSON: G:\Autodock_vina_benchmark\resultados_dual_site_20260224_225657\resultados_dual_site.json
+[22:57:06] 
+✅ Benchmark dual-site completado.

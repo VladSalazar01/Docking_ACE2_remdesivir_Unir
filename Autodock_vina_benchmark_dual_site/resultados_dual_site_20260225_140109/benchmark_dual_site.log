@@ -1,0 +1,240 @@
+[14:01:09] ======================================================================
+[14:01:09] [BENCHMARK] AUTODOCK VINA - BENCHMARK DUAL-SITE (CORRECCIÓN RETROSPECTIVA)
+[14:01:09] ======================================================================
+[14:01:09]   Target:         9FMM (ACE2 + F-MLN-4760)
+[14:01:09]   Programa:       AutoDock Vina (Docker: ghcr.io/metaphorme/vina:v1.2.5)
+[14:01:09]   Exhaustiveness: 64
+[14:01:09]   CPU threads:    48
+[14:01:09]   Box size:       20×20×20 Å
+[14:01:09]   Runs por sitio: 5
+[14:01:09]   Total runs:     10
+[14:01:09]   Fecha:          2026-02-25 14:01:09
+[14:01:09]   Resultados en:  G:\Autodock_vina_benchmark\resultados_dual_site_20260225_140109
+[14:01:09] 
+[14:01:09]   CORRECCIÓN 1: Centro de caja → de punto MID a fragmentos individuales
+[14:01:09]     MID (incorrecto):  (12.47, 15.461, 49.907)
+[14:01:09]     Fragment 1:        (16.48, 15.24, 25.54)
+[14:01:09]     Fragment 2:        (8.44, 15.48, 74.27)
+[14:01:09]   CORRECCIÓN 2: RMSD → name-matched Kabsch (corrige reorden obabel)
+[14:01:09] ======================================================================
+[14:01:09] ======================================================================
+[14:01:09] [VERIFICACIÓN] Comprobando requisitos...
+[14:01:09] ======================================================================
+[14:01:09]   [OK] Open Babel: Open Babel 3.1.1 -- May 16 2020 -- 11:57:55
+[14:01:10]   [OK] Docker disponible
+[14:01:10]   [OK] Receptor PDBQT: receptor.pdbqt
+[14:01:10]   [OK] Referencia Fragment_1: ligand_exp_Fragment_1.pdb (28 átomos)
+[14:01:10]   [OK] Referencia Fragment_2: ligand_exp_Fragment_2.pdb (28 átomos)
+[14:01:10] 
+[14:01:10] [VERIFICACIÓN] Todas las verificaciones pasaron.
+[14:01:10] 
+[14:01:10] [PREPARACIÓN] Preparando receptor...
+[14:01:10]   Receptor PDBQT ya existe: receptor.pdbqt
+[14:01:10] 
+[14:01:10] ======================================================================
+[14:01:10] [SITIO] BENCHMARKING SITIO: Fragment_1
+[14:01:10]    Sitio principal - cadena C, A1IDX 801
+[14:01:10]    Centro: (16.48, 15.24, 25.54)
+[14:01:10]    Caja: 20×20×20 Å
+[14:01:10] ======================================================================
+[14:01:10]   Ligando PDBQT ya existe: ligand_Fragment_1.pdbqt
+[14:01:10] 
+[14:01:10] [Fragment_1] Run 1/5
+[14:01:10] --------------------------------------------------
+[14:01:10]   Hora inicio: 14:01:10
+[14:01:10]   [1/3] Ejecutando Vina docking...
+[14:01:44]   [OK] Docking completado en 34.5s
+[14:01:44]   Hora fin: 14:01:44
+[14:01:44]   Tiempo run: 0m 34s (34.5s)
+[14:01:44]   [2/3] Calculando RMSD (name-matched Kabsch)...
+[14:01:44]   [STATS] RMSD: 1.548 Å (28 pares name-matched)
+[14:01:44]   Afinidad: -8.968 kcal/mol
+[14:01:44] 
+[14:01:44] [Fragment_1] Run 2/5
+[14:01:44] --------------------------------------------------
+[14:01:44]   Hora inicio: 14:01:44
+[14:01:44]   [1/3] Ejecutando Vina docking...
+[14:02:26]   [OK] Docking completado en 42.3s
+[14:02:26]   Hora fin: 14:02:26
+[14:02:26]   Tiempo run: 0m 42s (42.3s)
+[14:02:26]   [2/3] Calculando RMSD (name-matched Kabsch)...
+[14:02:26]   [STATS] RMSD: 1.545 Å (28 pares name-matched)
+[14:02:26]   Afinidad: -8.983 kcal/mol
+[14:02:26] 
+[14:02:26] [Fragment_1] Run 3/5
+[14:02:26] --------------------------------------------------
+[14:02:26]   Hora inicio: 14:02:26
+[14:02:26]   [1/3] Ejecutando Vina docking...
+[14:03:06]   [OK] Docking completado en 39.3s
+[14:03:06]   Hora fin: 14:03:06
+[14:03:06]   Tiempo run: 0m 39s (39.3s)
+[14:03:06]   [2/3] Calculando RMSD (name-matched Kabsch)...
+[14:03:06]   [STATS] RMSD: 1.551 Å (28 pares name-matched)
+[14:03:06]   Afinidad: -8.954 kcal/mol
+[14:03:06] 
+[14:03:06] [Fragment_1] Run 4/5
+[14:03:06] --------------------------------------------------
+[14:03:06]   Hora inicio: 14:03:06
+[14:03:06]   [1/3] Ejecutando Vina docking...
+[14:03:41]   [OK] Docking completado en 35.7s
+[14:03:41]   Hora fin: 14:03:41
+[14:03:41]   Tiempo run: 0m 35s (35.7s)
+[14:03:41]   [2/3] Calculando RMSD (name-matched Kabsch)...
+[14:03:41]   [STATS] RMSD: 1.540 Å (28 pares name-matched)
+[14:03:41]   Afinidad: -8.941 kcal/mol
+[14:03:41] 
+[14:03:41] [Fragment_1] Run 5/5
+[14:03:41] --------------------------------------------------
+[14:03:41]   Hora inicio: 14:03:41
+[14:03:41]   [1/3] Ejecutando Vina docking...
+[14:04:27]   [OK] Docking completado en 45.4s
+[14:04:27]   Hora fin: 14:04:27
+[14:04:27]   Tiempo run: 0m 45s (45.4s)
+[14:04:27]   [2/3] Calculando RMSD (name-matched Kabsch)...
+[14:04:27]   [STATS] RMSD: 1.543 Å (28 pares name-matched)
+[14:04:27]   Afinidad: -8.925 kcal/mol
+[14:04:27] 
+[14:04:27] RESULTADOS POR RUN - Fragment_1:
+[14:04:27] ----------------------------------------------------------------------
+[14:04:27] Run   Tiempo(s)   RMSD(Å)     Afinidad(kcal/mol)    Estado
+[14:04:27] ----------------------------------------------------------------------
+[14:04:27] 1     34.5        1.548       -8.968                [OK]
+[14:04:27] 2     42.3        1.545       -8.983                [OK]
+[14:04:27] 3     39.3        1.551       -8.954                [OK]
+[14:04:27] 4     35.7        1.540       -8.941                [OK]
+[14:04:27] 5     45.4        1.543       -8.925                [OK]
+[14:04:27] ----------------------------------------------------------------------
+[14:04:27] 
+[14:04:27] [STATS] ESTADÍSTICAS Fragment_1 (n=5/5):
+[14:04:27] --------------------------------------------------
+[14:04:27]   RMSD promedio:    1.545 ± 0.004 Å
+[14:04:27]   RMSD rango:       1.540 - 1.551 Å
+[14:04:27]   RMSD mediana:     1.545 Å
+[14:04:27]   Success ≤2.0 Å:   5/5 (100.0%)
+[14:04:27]   Success ≤3.0 Å:   5/5 (100.0%)
+[14:04:27]   Afinidad prom.:   -8.954 ± 0.020 kcal/mol
+[14:04:27]   Tiempo promedio:  39.5 s/run
+[14:04:27]   Tiempo total:     3m 17s (197.3s)
+[14:04:27] 
+[14:04:27] ======================================================================
+[14:04:27] [SITIO] BENCHMARKING SITIO: Fragment_2
+[14:04:27]    Sitio secundario - cadena P, A1IDX 802
+[14:04:27]    Centro: (8.44, 15.48, 74.27)
+[14:04:27]    Caja: 20×20×20 Å
+[14:04:27] ======================================================================
+[14:04:27]   Ligando PDBQT ya existe: ligand_Fragment_2.pdbqt
+[14:04:27] 
+[14:04:27] [Fragment_2] Run 1/5
+[14:04:27] --------------------------------------------------
+[14:04:27]   Hora inicio: 14:04:27
+[14:04:27]   [1/3] Ejecutando Vina docking...
+[14:05:00]   [OK] Docking completado en 33.6s
+[14:05:00]   Hora fin: 14:05:00
+[14:05:00]   Tiempo run: 0m 33s (33.6s)
+[14:05:00]   [2/3] Calculando RMSD (name-matched Kabsch)...
+[14:05:00]   [STATS] RMSD: 1.359 Å (28 pares name-matched)
+[14:05:00]   Afinidad: -8.293 kcal/mol
+[14:05:00] 
+[14:05:00] [Fragment_2] Run 2/5
+[14:05:00] --------------------------------------------------
+[14:05:00]   Hora inicio: 14:05:00
+[14:05:01]   [1/3] Ejecutando Vina docking...
+[14:05:35]   [OK] Docking completado en 34.5s
+[14:05:35]   Hora fin: 14:05:35
+[14:05:35]   Tiempo run: 0m 34s (34.5s)
+[14:05:35]   [2/3] Calculando RMSD (name-matched Kabsch)...
+[14:05:35]   [STATS] RMSD: 1.454 Å (28 pares name-matched)
+[14:05:35]   Afinidad: -8.342 kcal/mol
+[14:05:35] 
+[14:05:35] [Fragment_2] Run 3/5
+[14:05:35] --------------------------------------------------
+[14:05:35]   Hora inicio: 14:05:35
+[14:05:35]   [1/3] Ejecutando Vina docking...
+[14:06:10]   [OK] Docking completado en 34.6s
+[14:06:10]   Hora fin: 14:06:10
+[14:06:10]   Tiempo run: 0m 34s (34.6s)
+[14:06:10]   [2/3] Calculando RMSD (name-matched Kabsch)...
+[14:06:10]   [STATS] RMSD: 2.568 Å (28 pares name-matched)
+[14:06:10]   Afinidad: -7.511 kcal/mol
+[14:06:10] 
+[14:06:10] [Fragment_2] Run 4/5
+[14:06:10] --------------------------------------------------
+[14:06:10]   Hora inicio: 14:06:10
+[14:06:10]   [1/3] Ejecutando Vina docking...
+[14:06:44]   [OK] Docking completado en 34.3s
+[14:06:44]   Hora fin: 14:06:44
+[14:06:44]   Tiempo run: 0m 34s (34.3s)
+[14:06:44]   [2/3] Calculando RMSD (name-matched Kabsch)...
+[14:06:44]   [STATS] RMSD: 2.508 Å (28 pares name-matched)
+[14:06:44]   Afinidad: -7.688 kcal/mol
+[14:06:44] 
+[14:06:44] [Fragment_2] Run 5/5
+[14:06:44] --------------------------------------------------
+[14:06:44]   Hora inicio: 14:06:44
+[14:06:44]   [1/3] Ejecutando Vina docking...
+[14:07:23]   [OK] Docking completado en 39.5s
+[14:07:23]   Hora fin: 14:07:23
+[14:07:23]   Tiempo run: 0m 39s (39.5s)
+[14:07:23]   [2/3] Calculando RMSD (name-matched Kabsch)...
+[14:07:23]   [STATS] RMSD: 1.908 Å (28 pares name-matched)
+[14:07:23]   Afinidad: -8.094 kcal/mol
+[14:07:23] 
+[14:07:23] RESULTADOS POR RUN - Fragment_2:
+[14:07:23] ----------------------------------------------------------------------
+[14:07:23] Run   Tiempo(s)   RMSD(Å)     Afinidad(kcal/mol)    Estado
+[14:07:23] ----------------------------------------------------------------------
+[14:07:23] 1     33.6        1.359       -8.293                [OK]
+[14:07:23] 2     34.5        1.454       -8.342                [OK]
+[14:07:23] 3     34.6        2.568       -7.511                [OK]
+[14:07:23] 4     34.3        2.508       -7.688                [OK]
+[14:07:23] 5     39.5        1.908       -8.094                [OK]
+[14:07:23] ----------------------------------------------------------------------
+[14:07:23] 
+[14:07:23] [STATS] ESTADÍSTICAS Fragment_2 (n=5/5):
+[14:07:23] --------------------------------------------------
+[14:07:23]   RMSD promedio:    1.959 ± 0.508 Å
+[14:07:23]   RMSD rango:       1.359 - 2.568 Å
+[14:07:23]   RMSD mediana:     1.908 Å
+[14:07:23]   Success ≤2.0 Å:   3/5 (60.0%)
+[14:07:23]   Success ≤3.0 Å:   5/5 (100.0%)
+[14:07:23]   Afinidad prom.:   -7.986 ± 0.331 kcal/mol
+[14:07:23]   Tiempo promedio:  35.3 s/run
+[14:07:23]   Tiempo total:     2m 56s (176.5s)
+[14:07:23] 
+[14:07:23] ======================================================================
+[14:07:23] [STATS] COMPARACIÓN DUAL-SITE
+[14:07:23] ======================================================================
+[14:07:23] 
+[14:07:23] Métrica                  Fragment_1        Fragment_2        Diferencia
+[14:07:23] ---------------------------------------------------------------------------
+[14:07:23] RMSD promedio            1.545             1.959             0.414 Å
+[14:07:23] RMSD desv. est.          0.004             0.508             0.504 Å
+[14:07:23] Success ≤2.0 Å           5/5              3/5              
+[14:07:23] Success ≤3.0 Å           5/5              5/5              
+[14:07:23] Tiempo prom. (s)         39.5              35.3              
+[14:07:23] 
+[14:07:23] [RESULTADO] MEJOR SITIO: Fragment_1
+[14:07:23]    RMSD promedio: 1.545 Å
+[14:07:23]    Diferencia: 0.414 Å mejor que el otro sitio
+[14:07:23] 
+[14:07:23] ======================================================================
+[14:07:23] [COMPARACION] COMPARACIÓN CON BENCHMARK ORIGINAL
+[14:07:23] ======================================================================
+[14:07:23]   Benchmark original tenía DOS errores:
+[14:07:23]     1) Centro de caja en punto MID: (12.47, 15.461, 49.907)
+[14:07:23]     2) RMSD por orden secuencial (sin name-match) → artefacto ~5 Å
+[14:07:23]   RMSD original reportado:  4.446 ± 0.140 Å (exh=64, n=5)
+[14:07:23] 
+[14:07:23]   Fragment_1 corregido:    1.545 Å (mejora: 2.901 Å / 65.2%)
+[14:07:23]   Fragment_2 corregido:    1.959 Å (mejora: 2.487 Å / 55.9%)
+[14:07:23] 
+[14:07:23]   Fragment_1: 1.545 Å → [OK] EXCELENTE
+[14:07:23]   Fragment_2: 1.959 Å → [OK] EXCELENTE
+[14:07:23] 
+[14:07:23] [TIEMPO] TIEMPO TOTAL BENCHMARK: 6m 13s (373.8s)
+[14:07:23] 
+[ARCHIVOS] Resultados guardados en:
+[14:07:23]    Log:  G:\Autodock_vina_benchmark\resultados_dual_site_20260225_140109\benchmark_dual_site.log
+[14:07:23]    JSON: G:\Autodock_vina_benchmark\resultados_dual_site_20260225_140109\resultados_dual_site.json
+[14:07:23] 
+[OK] Benchmark dual-site completado.

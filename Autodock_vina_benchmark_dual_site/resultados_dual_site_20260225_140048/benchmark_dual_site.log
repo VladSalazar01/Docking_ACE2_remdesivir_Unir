@@ -1,0 +1,78 @@
+[14:00:48] ======================================================================
+[14:00:48] [BENCHMARK] AUTODOCK VINA - BENCHMARK DUAL-SITE (CORRECCIÓN RETROSPECTIVA)
+[14:00:48] ======================================================================
+[14:00:48]   Target:         9FMM (ACE2 + F-MLN-4760)
+[14:00:48]   Programa:       AutoDock Vina (Docker: vina_docker:latest)
+[14:00:48]   Exhaustiveness: 64
+[14:00:48]   CPU threads:    48
+[14:00:48]   Box size:       20×20×20 Å
+[14:00:48]   Runs por sitio: 5
+[14:00:48]   Total runs:     10
+[14:00:48]   Fecha:          2026-02-25 14:00:48
+[14:00:48]   Resultados en:  G:\Autodock_vina_benchmark\resultados_dual_site_20260225_140048
+[14:00:48] 
+[14:00:48]   CORRECCIÓN 1: Centro de caja → de punto MID a fragmentos individuales
+[14:00:48]     MID (incorrecto):  (12.47, 15.461, 49.907)
+[14:00:48]     Fragment 1:        (16.48, 15.24, 25.54)
+[14:00:48]     Fragment 2:        (8.44, 15.48, 74.27)
+[14:00:48]   CORRECCIÓN 2: RMSD → name-matched Kabsch (corrige reorden obabel)
+[14:00:48] ======================================================================
+[14:00:48] ======================================================================
+[14:00:48] [VERIFICACIÓN] Comprobando requisitos...
+[14:00:48] ======================================================================
+[14:00:48]   [OK] Open Babel: Open Babel 3.1.1 -- May 16 2020 -- 11:57:55
+[14:00:49]   [OK] Docker disponible
+[14:00:49]   [OK] Receptor PDBQT: receptor.pdbqt
+[14:00:49]   [OK] Referencia Fragment_1: ligand_exp_Fragment_1.pdb (28 átomos)
+[14:00:49]   [OK] Referencia Fragment_2: ligand_exp_Fragment_2.pdb (28 átomos)
+[14:00:49] 
+[14:00:49] [VERIFICACIÓN] Todas las verificaciones pasaron.
+[14:00:49] 
+[14:00:49] [PREPARACIÓN] Preparando receptor...
+[14:00:49]   Receptor PDBQT ya existe: receptor.pdbqt
+[14:00:49] 
+[14:00:49] ======================================================================
+[14:00:49] [SITIO] BENCHMARKING SITIO: Fragment_1
+[14:00:49]    Sitio principal - cadena C, A1IDX 801
+[14:00:49]    Centro: (16.48, 15.24, 25.54)
+[14:00:49]    Caja: 20×20×20 Å
+[14:00:49] ======================================================================
+[14:00:49]   Ligando PDBQT ya existe: ligand_Fragment_1.pdbqt
+[14:00:49] 
+[14:00:49] [Fragment_1] Run 1/5
+[14:00:49] --------------------------------------------------
+[14:00:49]   Hora inicio: 14:00:49
+[14:00:49]   [1/3] Ejecutando Vina docking...
+[14:00:50]   [ERROR] Vina falló (código 125)
+[14:00:50]   stderr: Unable to find image 'vina_docker:latest' locally
+docker: Error response from daemon: pull access denied for vina_docker, repository does not exist or may require 'docker login': denied: requested acc
+[14:00:50]   Hora fin: 14:00:50
+[14:00:50]   Tiempo run: 0m 1s (1.3s)
+[14:00:50]   [ERROR] Run fallido
+[14:00:50] 
+[14:00:50] [Fragment_1] Run 2/5
+[14:00:50] --------------------------------------------------
+[14:00:50]   Hora inicio: 14:00:50
+[14:00:50]   [1/3] Ejecutando Vina docking...
+[14:00:51]   [ERROR] Vina falló (código 125)
+[14:00:51]   stderr: Unable to find image 'vina_docker:latest' locally
+docker: Error response from daemon: pull access denied for vina_docker, repository does not exist or may require 'docker login': denied: requested acc
+[14:00:51]   Hora fin: 14:00:51
+[14:00:51]   Tiempo run: 0m 1s (1.1s)
+[14:00:51]   [ERROR] Run fallido
+[14:00:51] 
+[14:00:51] [Fragment_1] Run 3/5
+[14:00:51] --------------------------------------------------
+[14:00:51]   Hora inicio: 14:00:51
+[14:00:51]   [1/3] Ejecutando Vina docking...
+[14:00:52]   [ERROR] Vina falló (código 125)
+[14:00:52]   stderr: Unable to find image 'vina_docker:latest' locally
+docker: Error response from daemon: pull access denied for vina_docker, repository does not exist or may require 'docker login': denied: requested acc
+[14:00:52]   Hora fin: 14:00:52
+[14:00:52]   Tiempo run: 0m 1s (1.2s)
+[14:00:52]   [ERROR] Run fallido
+[14:00:52] 
+[14:00:52] [Fragment_1] Run 4/5
+[14:00:52] --------------------------------------------------
+[14:00:52]   Hora inicio: 14:00:52
+[14:00:52]   [1/3] Ejecutando Vina docking...

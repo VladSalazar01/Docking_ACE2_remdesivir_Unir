@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "script": "benchmark_vina_dual_site.py",
+    "fecha": "2026-02-24T23:03:37.402023",
+    "tipo": "corrección retrospectiva dual-site",
+    "programa": "AutoDock Vina",
+    "exhaustiveness": 64,
+    "num_modes": 9,
+    "cpu_threads": 48,
+    "box_size": 20,
+    "n_runs_por_sitio": 5,
+    "centro_incorrecto_original": {
+      "center_x": 12.47,
+      "center_y": 15.461,
+      "center_z": 49.907,
+      "nota": "Punto MID entre fragmentos - NO corresponde a sitio de unión real"
+    }
+  },
+  "sitios": {
+    "Fragment_1": {
+      "config": {
+        "center_x": 16.48,
+        "center_y": 15.24,
+        "center_z": 25.54
+      },
+      "resultados": [
+        {
+          "run": 1,
+          "rmsd": -1.0,
+          "afinidad": null,
+          "tiempo": 1.276639461517334,
+          "exito": false
+        },
+        {
+          "run": 2,
+          "rmsd": -1.0,
+          "afinidad": null,
+          "tiempo": 1.1442594528198242,
+          "exito": false
+        },
+        {
+          "run": 3,
+          "rmsd": -1.0,
+          "afinidad": null,
+          "tiempo": 1.1257894039154053,
+          "exito": false
+        },
+        {
+          "run": 4,
+          "rmsd": -1.0,
+          "afinidad": null,
+          "tiempo": 1.1186046600341797,
+          "exito": false
+        },
+        {
+          "run": 5,
+          "rmsd": -1.0,
+          "afinidad": null,
+          "tiempo": 1.1357874870300293,
+          "exito": false
+        }
+      ],
+      "estadisticas": null
+    },
+    "Fragment_2": {
+      "config": {
+        "center_x": 8.44,
+        "center_y": 15.48,
+        "center_z": 74.27
+      },
+      "resultados": [
+        {
+          "run": 1,
+          "rmsd": -1.0,
+          "afinidad": null,
+          "tiempo": 1.1389377117156982,
+          "exito": false
+        },
+        {
+          "run": 2,
+          "rmsd": -1.0,
+          "afinidad": null,
+          "tiempo": 1.1420390605926514,
+          "exito": false
+        },
+        {
+          "run": 3,
+          "rmsd": -1.0,
+          "afinidad": null,
+          "tiempo": 1.1286962032318115,
+          "exito": false
+        },
+        {
+          "run": 4,
+          "rmsd": -1.0,
+          "afinidad": null,
+          "tiempo": 1.1337478160858154,
+          "exito": false
+        },
+        {
+          "run": 5,
+          "rmsd": -1.0,
+          "afinidad": null,
+          "tiempo": 1.1223342418670654,
+          "exito": false
+        }
+      ],
+      "estadisticas": null
+    }
+  }
+}

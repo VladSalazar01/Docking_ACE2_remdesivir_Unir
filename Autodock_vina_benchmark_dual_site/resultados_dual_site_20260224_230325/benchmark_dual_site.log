@@ -1,0 +1,200 @@
+[23:03:25] ======================================================================
+[23:03:25] 🧬 AUTODOCK VINA - BENCHMARK DUAL-SITE (CORRECCIÓN RETROSPECTIVA)
+[23:03:25] ======================================================================
+[23:03:25]   Target:         9FMM (ACE2 + F-MLN-4760)
+[23:03:25]   Programa:       AutoDock Vina (Docker: vina_docker:latest)
+[23:03:25]   Exhaustiveness: 64
+[23:03:25]   CPU threads:    48
+[23:03:25]   Box size:       20×20×20 Å
+[23:03:25]   Runs por sitio: 5
+[23:03:25]   Total runs:     10
+[23:03:25]   Fecha:          2026-02-24 23:03:25
+[23:03:25]   Resultados en:  G:\Autodock_vina_benchmark\resultados_dual_site_20260224_230325
+[23:03:25] 
+[23:03:25]   CORRECCIÓN: Centro de caja cambiado de punto MID a fragmentos
+[23:03:25]     MID (incorrecto):  (12.47, 15.461, 49.907)
+[23:03:25]     Fragment 1:        (16.48, 15.24, 25.54)
+[23:03:25]     Fragment 2:        (8.44, 15.48, 74.27)
+[23:03:25] ======================================================================
+[23:03:25] ======================================================================
+[23:03:25] [VERIFICACIÓN] Comprobando requisitos...
+[23:03:25] ======================================================================
+[23:03:25]   [OK] Open Babel: Open Babel 3.1.1 -- May 16 2020 -- 11:57:55
+[23:03:25]   [OK] Docker disponible
+[23:03:25]   [OK] Receptor PDBQT: receptor.pdbqt
+[23:03:25]   [OK] Referencia Fragment_1: ligand_exp_Fragment_1.pdb (28 átomos)
+[23:03:25]   [OK] Referencia Fragment_2: ligand_exp_Fragment_2.pdb (28 átomos)
+[23:03:25] 
+[23:03:25] [VERIFICACIÓN] Todas las verificaciones pasaron.
+[23:03:25] 
+[23:03:25] [PREPARACIÓN] Preparando receptor...
+[23:03:25]   Receptor PDBQT ya existe: receptor.pdbqt
+[23:03:25] 
+[23:03:25] ======================================================================
+[23:03:25] 🎯 BENCHMARKING SITIO: Fragment_1
+[23:03:25]    Sitio principal - cadena C, A1IDX 801
+[23:03:25]    Centro: (16.48, 15.24, 25.54)
+[23:03:25]    Caja: 20×20×20 Å
+[23:03:25] ======================================================================
+[23:03:25]   Ligando PDBQT ya existe: ligand_Fragment_1.pdbqt
+[23:03:25] 
+[23:03:25] [Fragment_1] Run 1/5
+[23:03:25] --------------------------------------------------
+[23:03:25]   Hora inicio: 23:03:25
+[23:03:25]   [1/3] Ejecutando Vina docking...
+[23:03:27]   [ERROR] Vina falló (código 125)
+[23:03:27]   stderr: Unable to find image 'vina_docker:latest' locally
+docker: Error response from daemon: pull access denied for vina_docker, repository does not exist or may require 'docker login': denied: requested acc
+[23:03:27]   Hora fin: 23:03:27
+[23:03:27]   Tiempo run: 0m 1s (1.3s)
+[23:03:27]   [ERROR] Run fallido
+[23:03:27] 
+[23:03:27] [Fragment_1] Run 2/5
+[23:03:27] --------------------------------------------------
+[23:03:27]   Hora inicio: 23:03:27
+[23:03:27]   [1/3] Ejecutando Vina docking...
+[23:03:28]   [ERROR] Vina falló (código 125)
+[23:03:28]   stderr: Unable to find image 'vina_docker:latest' locally
+docker: Error response from daemon: pull access denied for vina_docker, repository does not exist or may require 'docker login': denied: requested acc
+[23:03:28]   Hora fin: 23:03:28
+[23:03:28]   Tiempo run: 0m 1s (1.1s)
+[23:03:28]   [ERROR] Run fallido
+[23:03:28] 
+[23:03:28] [Fragment_1] Run 3/5
+[23:03:28] --------------------------------------------------
+[23:03:28]   Hora inicio: 23:03:28
+[23:03:28]   [1/3] Ejecutando Vina docking...
+[23:03:29]   [ERROR] Vina falló (código 125)
+[23:03:29]   stderr: Unable to find image 'vina_docker:latest' locally
+docker: Error response from daemon: pull access denied for vina_docker, repository does not exist or may require 'docker login': denied: requested acc
+[23:03:29]   Hora fin: 23:03:29
+[23:03:29]   Tiempo run: 0m 1s (1.1s)
+[23:03:29]   [ERROR] Run fallido
+[23:03:29] 
+[23:03:29] [Fragment_1] Run 4/5
+[23:03:29] --------------------------------------------------
+[23:03:29]   Hora inicio: 23:03:29
+[23:03:29]   [1/3] Ejecutando Vina docking...
+[23:03:30]   [ERROR] Vina falló (código 125)
+[23:03:30]   stderr: Unable to find image 'vina_docker:latest' locally
+docker: Error response from daemon: pull access denied for vina_docker, repository does not exist or may require 'docker login': denied: requested acc
+[23:03:30]   Hora fin: 23:03:30
+[23:03:30]   Tiempo run: 0m 1s (1.1s)
+[23:03:30]   [ERROR] Run fallido
+[23:03:30] 
+[23:03:30] [Fragment_1] Run 5/5
+[23:03:30] --------------------------------------------------
+[23:03:30]   Hora inicio: 23:03:30
+[23:03:30]   [1/3] Ejecutando Vina docking...
+[23:03:31]   [ERROR] Vina falló (código 125)
+[23:03:31]   stderr: Unable to find image 'vina_docker:latest' locally
+docker: Error response from daemon: pull access denied for vina_docker, repository does not exist or may require 'docker login': denied: requested acc
+[23:03:31]   Hora fin: 23:03:31
+[23:03:31]   Tiempo run: 0m 1s (1.1s)
+[23:03:31]   [ERROR] Run fallido
+[23:03:31] 
+[23:03:31] RESULTADOS POR RUN - Fragment_1:
+[23:03:31] ----------------------------------------------------------------------
+[23:03:31] Run   Tiempo(s)   RMSD(Å)     Afinidad(kcal/mol)    Estado
+[23:03:31] ----------------------------------------------------------------------
+[23:03:31] 1     1.3         FALLO       N/A                   ❌
+[23:03:31] 2     1.1         FALLO       N/A                   ❌
+[23:03:31] 3     1.1         FALLO       N/A                   ❌
+[23:03:31] 4     1.1         FALLO       N/A                   ❌
+[23:03:31] 5     1.1         FALLO       N/A                   ❌
+[23:03:31] ----------------------------------------------------------------------
+[23:03:31] 
+[23:03:31] 📊 ESTADÍSTICAS Fragment_1 (n=0/5):
+[23:03:31] --------------------------------------------------
+[23:03:31]   ⚠️ Sin runs exitosos para Fragment_1
+[23:03:31] 
+[23:03:31] ======================================================================
+[23:03:31] 🎯 BENCHMARKING SITIO: Fragment_2
+[23:03:31]    Sitio secundario - cadena P, A1IDX 802
+[23:03:31]    Centro: (8.44, 15.48, 74.27)
+[23:03:31]    Caja: 20×20×20 Å
+[23:03:31] ======================================================================
+[23:03:31]   Ligando PDBQT ya existe: ligand_Fragment_2.pdbqt
+[23:03:31] 
+[23:03:31] [Fragment_2] Run 1/5
+[23:03:31] --------------------------------------------------
+[23:03:31]   Hora inicio: 23:03:31
+[23:03:31]   [1/3] Ejecutando Vina docking...
+[23:03:32]   [ERROR] Vina falló (código 125)
+[23:03:32]   stderr: Unable to find image 'vina_docker:latest' locally
+docker: Error response from daemon: pull access denied for vina_docker, repository does not exist or may require 'docker login': denied: requested acc
+[23:03:32]   Hora fin: 23:03:32
+[23:03:32]   Tiempo run: 0m 1s (1.1s)
+[23:03:32]   [ERROR] Run fallido
+[23:03:32] 
+[23:03:32] [Fragment_2] Run 2/5
+[23:03:32] --------------------------------------------------
+[23:03:32]   Hora inicio: 23:03:32
+[23:03:32]   [1/3] Ejecutando Vina docking...
+[23:03:33]   [ERROR] Vina falló (código 125)
+[23:03:33]   stderr: Unable to find image 'vina_docker:latest' locally
+docker: Error response from daemon: pull access denied for vina_docker, repository does not exist or may require 'docker login': denied: requested acc
+[23:03:33]   Hora fin: 23:03:33
+[23:03:33]   Tiempo run: 0m 1s (1.1s)
+[23:03:34]   [ERROR] Run fallido
+[23:03:34] 
+[23:03:34] [Fragment_2] Run 3/5
+[23:03:34] --------------------------------------------------
+[23:03:34]   Hora inicio: 23:03:34
+[23:03:34]   [1/3] Ejecutando Vina docking...
+[23:03:35]   [ERROR] Vina falló (código 125)
+[23:03:35]   stderr: Unable to find image 'vina_docker:latest' locally
+docker: Error response from daemon: pull access denied for vina_docker, repository does not exist or may require 'docker login': denied: requested acc
+[23:03:35]   Hora fin: 23:03:35
+[23:03:35]   Tiempo run: 0m 1s (1.1s)
+[23:03:35]   [ERROR] Run fallido
+[23:03:35] 
+[23:03:35] [Fragment_2] Run 4/5
+[23:03:35] --------------------------------------------------
+[23:03:35]   Hora inicio: 23:03:35
+[23:03:35]   [1/3] Ejecutando Vina docking...
+[23:03:36]   [ERROR] Vina falló (código 125)
+[23:03:36]   stderr: Unable to find image 'vina_docker:latest' locally
+docker: Error response from daemon: pull access denied for vina_docker, repository does not exist or may require 'docker login': denied: requested acc
+[23:03:36]   Hora fin: 23:03:36
+[23:03:36]   Tiempo run: 0m 1s (1.1s)
+[23:03:36]   [ERROR] Run fallido
+[23:03:36] 
+[23:03:36] [Fragment_2] Run 5/5
+[23:03:36] --------------------------------------------------
+[23:03:36]   Hora inicio: 23:03:36
+[23:03:36]   [1/3] Ejecutando Vina docking...
+[23:03:37]   [ERROR] Vina falló (código 125)
+[23:03:37]   stderr: Unable to find image 'vina_docker:latest' locally
+docker: Error response from daemon: pull access denied for vina_docker, repository does not exist or may require 'docker login': denied: requested acc
+[23:03:37]   Hora fin: 23:03:37
+[23:03:37]   Tiempo run: 0m 1s (1.1s)
+[23:03:37]   [ERROR] Run fallido
+[23:03:37] 
+[23:03:37] RESULTADOS POR RUN - Fragment_2:
+[23:03:37] ----------------------------------------------------------------------
+[23:03:37] Run   Tiempo(s)   RMSD(Å)     Afinidad(kcal/mol)    Estado
+[23:03:37] ----------------------------------------------------------------------
+[23:03:37] 1     1.1         FALLO       N/A                   ❌
+[23:03:37] 2     1.1         FALLO       N/A                   ❌
+[23:03:37] 3     1.1         FALLO       N/A                   ❌
+[23:03:37] 4     1.1         FALLO       N/A                   ❌
+[23:03:37] 5     1.1         FALLO       N/A                   ❌
+[23:03:37] ----------------------------------------------------------------------
+[23:03:37] 
+[23:03:37] 📊 ESTADÍSTICAS Fragment_2 (n=0/5):
+[23:03:37] --------------------------------------------------
+[23:03:37]   ⚠️ Sin runs exitosos para Fragment_2
+[23:03:37] 
+[23:03:37] ======================================================================
+[23:03:37] 📊 COMPARACIÓN DUAL-SITE
+[23:03:37] ======================================================================
+[23:03:37]   ⚠️ Sin resultados válidos para comparar
+[23:03:37] 
+[23:03:37] ⏱️  TIEMPO TOTAL BENCHMARK: 0m 11s (11.5s)
+[23:03:37] 
+📁 Resultados guardados en:
+[23:03:37]    Log:  G:\Autodock_vina_benchmark\resultados_dual_site_20260224_230325\benchmark_dual_site.log
+[23:03:37]    JSON: G:\Autodock_vina_benchmark\resultados_dual_site_20260224_230325\resultados_dual_site.json
+[23:03:37] 
+✅ Benchmark dual-site completado.

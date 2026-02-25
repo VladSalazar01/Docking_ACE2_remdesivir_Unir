@@ -1,0 +1,33 @@
+[22:53:56] ======================================================================
+[22:53:56] 🧬 AUTODOCK VINA - BENCHMARK DUAL-SITE (CORRECCIÓN RETROSPECTIVA)
+[22:53:56] ======================================================================
+[22:53:56]   Target:         9FMM (ACE2 + F-MLN-4760)
+[22:53:56]   Programa:       AutoDock Vina (Docker: ghcr.io/metaphorme/vina:v1.2.5)
+[22:53:56]   Exhaustiveness: 64
+[22:53:56]   CPU threads:    48
+[22:53:56]   Box size:       20×20×20 Å
+[22:53:56]   Runs por sitio: 5
+[22:53:56]   Total runs:     10
+[22:53:56]   Fecha:          2026-02-24 22:53:56
+[22:53:56]   Resultados en:  G:\Autodock_vina_benchmark\resultados_dual_site_20260224_225356
+[22:53:56] 
+[22:53:56]   CORRECCIÓN: Centro de caja cambiado de punto MID a fragmentos
+[22:53:56]     MID (incorrecto):  (12.47, 15.461, 49.907)
+[22:53:56]     Fragment 1:        (16.48, 15.24, 25.54)
+[22:53:56]     Fragment 2:        (8.44, 15.48, 74.27)
+[22:53:56] ======================================================================
+[22:53:56] ======================================================================
+[22:53:56] [VERIFICACIÓN] Comprobando requisitos...
+[22:53:56] ======================================================================
+[22:53:56]   [OK] Open Babel: Open Babel 3.1.1 -- May 16 2020 -- 11:57:55
+[22:53:56]   [OK] Docker disponible
+[22:53:56]   [ERROR] Receptor no encontrado
+[22:53:56]   [ERROR] Referencia Fragment_1: ligand_exp_Fragment_1.pdb NO ENCONTRADA
+[22:53:56]   [ERROR] Referencia Fragment_2: ligand_exp_Fragment_2.pdb NO ENCONTRADA
+[22:53:56] 
+[22:53:56] [VERIFICACIÓN] ERRORES ENCONTRADOS:
+[22:53:56]   ✗ Receptor no encontrado (9FMM_protein.pdb ni receptor.pdbqt)
+[22:53:56]   ✗ Referencia Fragment_1 no encontrada: ligand_exp_Fragment_1.pdb
+[22:53:56]   ✗ Referencia Fragment_2 no encontrada: ligand_exp_Fragment_2.pdb
+[22:53:56] 
+[FATAL] Verificaciones fallidas. Corregir antes de continuar.
